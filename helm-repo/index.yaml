@@ -10,7 +10,7 @@ entries:
         url: https://argoproj.github.io/argo-helm/pgp_keys.asc
     apiVersion: v2
     appVersion: v2.11.3
-    created: "2024-11-12T12:44:55.138313978-05:00"
+    created: "2024-11-12T12:45:44.60004358-05:00"
     dependencies:
     - condition: redis-ha.enabled
       name: redis-ha
@@ -18,7 +18,7 @@ entries:
       version: 4.26.1
     description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
-    digest: e50b8660e69b713ccd1f588f6d578ae18ac58d583fccbd465369294cbb14beaf
+    digest: a91b1163303296f07b3485e4b6ee5ae803767a2a75cda70e7fa4678c813f8a44
     home: https://github.com/argoproj/argo-helm
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
     keywords:
@@ -43,10 +43,10 @@ entries:
       catalog.cattle.io/release-name: ceph-csi-cephfs
     apiVersion: v1
     appVersion: 3.10.2
-    created: "2024-11-12T12:44:55.139244738-05:00"
+    created: "2024-11-12T12:45:44.600922243-05:00"
     description: Container Storage Interface (CSI) driver, provisioner, snapshotter
       and resizer for Ceph cephfs
-    digest: ba85758c6bbe9163d268927d8abae5c8edf6a6243f7ce8ef29a8b061370d85c5
+    digest: 42ef1f1c3ed635573b4101fecda993be21ebe82c02979ce10596867ad78e12a8
     home: https://github.com/ceph/ceph-csi
     icon: https://raw.githubusercontent.com/ceph/ceph-csi/v3.10.2/assets/ceph-logo.png
     keywords:
@@ -62,10 +62,10 @@ entries:
   ceph-csi-rbd:
   - apiVersion: v1
     appVersion: 3.10.1
-    created: "2024-11-12T12:44:55.140345581-05:00"
+    created: "2024-11-12T12:45:44.602508054-05:00"
     description: Container Storage Interface (CSI) driver, provisioner, snapshotter,
       resizer and attacher for Ceph RBD
-    digest: 86d8e65ce4bb2c78499e347d572fed058feb5f01a7d4440d20b0ffdcbe23b900
+    digest: bf70dad62f5feaa33035f5f72e3f172032837cc7d06471789e5ea10e4f72eec9
     home: https://github.com/ceph/ceph-csi
     icon: https://raw.githubusercontent.com/ceph/ceph-csi/v3.10.1/assets/ceph-logo.png
     keywords:
@@ -86,9 +86,9 @@ entries:
       catalog.cattle.io/release-name: cluster-autoscaler
     apiVersion: v2
     appVersion: 1.26.1
-    created: "2024-11-12T12:44:55.14065601-05:00"
+    created: "2024-11-12T12:45:44.602781247-05:00"
     description: Scales Kubernetes worker nodes.
-    digest: b46b4ea5971597ec4886fc19da5ff113ad6f499b0c5acf746785eed581aa8695
+    digest: cdc0dd651f69d28c4b29da23fa8aa546dbb5af1fef28b2ae5d63a60f3baf56d0
     icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
     kubeVersion: '>= 1.19.0-0'
     name: cluster-autoscaler
@@ -101,10 +101,10 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.2.2
-    created: "2024-11-12T12:44:55.143296056-05:00"
+    created: "2024-11-12T12:45:44.604219032-05:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
       This chart is not deployable by itself.
-    digest: 58afd5cb32335ca55cd8bf48134d70cec42937fed86961a434496160097b2812
+    digest: b9adc5dfb1f0c2caf311a6488db4ac61549b74440bb256f134890e79ae076c52
     home: https://github.com/bitnami/charts/tree/main/bitnami/common
     icon: https://bitnami.com/downloads/logos/bitnami-mark.png
     keywords:
@@ -128,10 +128,10 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.2.1
-    created: "2024-11-12T12:44:55.142675303-05:00"
+    created: "2024-11-12T12:45:44.603742696-05:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
       This chart is not deployable by itself.
-    digest: 9fc82aa6b670b918fab7f6a74da6b2ed78cf0bf1601c5b6a87bbe679d1f49d7f
+    digest: cd71c501731ca46cae30b05fdfd02ad73624f18b9fb6eca0970af2af5f7b4197
     home: https://github.com/bitnami/charts/tree/main/bitnami/common
     icon: https://bitnami.com/downloads/logos/bitnami-mark.png
     keywords:
@@ -155,10 +155,10 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 2.0.4
-    created: "2024-11-12T12:44:55.141282331-05:00"
+    created: "2024-11-12T12:45:44.603260431-05:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
       This chart is not deployable by itself.
-    digest: 994f82f7948721f08259087c7fa8cee93550c757c855ae9f14e45a4a5f461684
+    digest: 8bf0484f45b794b3d102b1ea7c7038e82e34d33484b5dec513d6806b15d623df
     home: https://github.com/bitnami/charts/tree/main/bitnami/common
     icon: https://bitnami.com/downloads/logos/bitnami-mark.png
     keywords:
@@ -186,14 +186,14 @@ entries:
       catalog.cattle.io/release-name: community-operator
     apiVersion: v2
     appVersion: 0.11.0
-    created: "2024-11-12T12:44:55.144810951-05:00"
+    created: "2024-11-12T12:45:44.605479779-05:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: file://./charts/community-operator-crds
       version: 0.11.0
     description: MongoDB Kubernetes Community Operator
-    digest: 801b24df927d4256b8f27b587c91f01a5c50ae75aaa4ff5d7322f2a5010aa49f
+    digest: b4ac105ef9d14df05174f5b6a287fe4404b1393609644622a13f209ec7a4a580
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: file://assets/icons/community-operator.png
     keywords:
@@ -216,14 +216,14 @@ entries:
       catalog.cattle.io/release-name: community-operator
     apiVersion: v2
     appVersion: 0.10.0
-    created: "2024-11-12T12:44:55.144093201-05:00"
+    created: "2024-11-12T12:45:44.604875712-05:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: file://./charts/community-operator-crds
       version: 0.10.0
     description: MongoDB Kubernetes Community Operator
-    digest: 7733ad2248b5f15623bc48d9b9c618b4285056a3fcb8e685fc1ca65f67a53a5a
+    digest: 30dceb1fcddd2cca4c91c4ee33dbdd8ee2f28e133fe264beae149e7f4a3d3ff7
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -246,14 +246,14 @@ entries:
       catalog.cattle.io/release-name: community-operator
     apiVersion: v2
     appVersion: 0.9.0
-    created: "2024-11-12T12:44:55.147291957-05:00"
+    created: "2024-11-12T12:45:44.608224561-05:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: file://./charts/community-operator-crds
       version: 0.9.0
     description: MongoDB Kubernetes Community Operator
-    digest: 5b05f3b162fd45c1c4d5675873853e058bbfb3b53836ed85023c2a65ef60a42a
+    digest: a1893e858167131082fb343978fa469f251d7a8056cf423c89296261523d8b5b
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -276,14 +276,14 @@ entries:
       catalog.cattle.io/release-name: community-operator
     apiVersion: v2
     appVersion: 0.8.3
-    created: "2024-11-12T12:44:55.146657441-05:00"
+    created: "2024-11-12T12:45:44.607303268-05:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: file://./charts/community-operator-crds
       version: 0.8.3
     description: MongoDB Kubernetes Community Operator
-    digest: 4c74d1b455d9bf8fc17165c6b083695c90830fdde018dfe0835900f611714210
+    digest: 9c0bbdb6e66ac784e8f8d641b7e5af2a1202d5955318317af1ee928c56bac690
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -306,14 +306,14 @@ entries:
       catalog.cattle.io/release-name: community-operator
     apiVersion: v2
     appVersion: 0.8.2
-    created: "2024-11-12T12:44:55.146012084-05:00"
+    created: "2024-11-12T12:45:44.606550222-05:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: file://./charts/community-operator-crds
       version: 0.8.2
     description: MongoDB Kubernetes Community Operator
-    digest: 4216dcb10bcfd220159076b6e6eedbca5480b8525f9f6a49d827d39728b81c96
+    digest: be81c7ea4a252633a673490ef0da646b38404498db2e0e6f987b1e76e950f707
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -336,14 +336,14 @@ entries:
       catalog.cattle.io/release-name: community-operator
     apiVersion: v2
     appVersion: 0.8.1
-    created: "2024-11-12T12:44:55.145420322-05:00"
+    created: "2024-11-12T12:45:44.606015128-05:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: file://./charts/community-operator-crds
       version: 0.8.1
     description: MongoDB Kubernetes Community Operator
-    digest: 710a51ccff6cf00141d6ccb54b1eaf9fb46a7622e2edcfef968ffa21bf0a7c23
+    digest: 7f4000babfd96841e3cebdb67da2f0e0da70e1e3f31ea2587618dc9c77dac7ab
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -362,9 +362,9 @@ entries:
   community-operator-crds:
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2024-11-12T12:44:55.147760739-05:00"
+    created: "2024-11-12T12:45:44.608685269-05:00"
     description: MongoDB Kubernetes Community Operator - CRDs
-    digest: d16b8b6815963c27c0c8f01dd6e998eba58e785fa2f449434c979ad53c806bbf
+    digest: 63913ccdc94a5370ddd2ce1ffce42e7eb80ae765c19a0b2bd17d10d9367c2ff4
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -382,9 +382,9 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2024-11-12T12:44:55.147526098-05:00"
+    created: "2024-11-12T12:45:44.608469111-05:00"
     description: MongoDB Kubernetes Community Operator - CRDs
-    digest: 11f717ef903bc729476ef264c598c4ba9b88efb060a2ef28e100912ea9083b4e
+    digest: 630e726deb0fdee5ee99f1be25a10a16a0a4662d08c1a51b95b5e776684909f1
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -402,9 +402,9 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2024-11-12T12:44:55.14862924-05:00"
+    created: "2024-11-12T12:45:44.609473895-05:00"
     description: MongoDB Kubernetes Community Operator - CRDs
-    digest: 7a2815fdba48e5fabd71b5a107d169d0884b6d1d3d485340456c103b07d2840d
+    digest: f83f8161134ccb6591110df8a06fb9f98be23e2722298ff2df0ebfec2bd80a30
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -422,9 +422,9 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.3
-    created: "2024-11-12T12:44:55.148406407-05:00"
+    created: "2024-11-12T12:45:44.60926899-05:00"
     description: MongoDB Kubernetes Community Operator - CRDs
-    digest: 1528f265194a2a7d74977de59bde52dd23d6ddfde5afbc746d383cb41e16b40d
+    digest: c9a14aa61a6c006e4ce00a2d2d6236ef6f425369f1a3c67b5ba714f17634414d
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -442,9 +442,9 @@ entries:
     version: 0.8.3
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2024-11-12T12:44:55.148166934-05:00"
+    created: "2024-11-12T12:45:44.609069342-05:00"
     description: MongoDB Kubernetes Community Operator - CRDs
-    digest: 9c8b147f34c4a5a6863b74b6c8b294d84e344a5d58721c80513b5ec9013adb96
+    digest: c5dc02ce4cce6e007a73aba5063fd4cd965a07ee003c51ef1f946c4f04546a9f
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -462,9 +462,9 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 0.8.1
-    created: "2024-11-12T12:44:55.147965186-05:00"
+    created: "2024-11-12T12:45:44.608881566-05:00"
     description: MongoDB Kubernetes Community Operator - CRDs
-    digest: 68bc99e6a5d8c40ba111344b970ade0df980937ab0e8b0dfad2d1e0dcda2eff8
+    digest: 58861e512a715fa82f7e471b7ee3772f951c5dfcc1a16ba0c84a2c3be9cc7064
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -483,7 +483,7 @@ entries:
   cortex:
   - apiVersion: v2
     appVersion: v1.14.1
-    created: "2024-11-12T12:44:55.155414148-05:00"
+    created: "2024-11-12T12:45:44.615577829-05:00"
     dependencies:
     - alias: memcached-frontend
       condition: memcached-frontend.enabled
@@ -507,7 +507,7 @@ entries:
       version: 6.3.3
     description: Horizontally scalable, highly available, multi-tenant, long term
       Prometheus.
-    digest: 0b062230d78b764425b69043df47064c4afe13b73783929dfe5bd671e6bb0ec2
+    digest: c7f872f8ae450982d1778c61f2b15c2e70354c09bd33ec0ba78f3e624de9c360
     home: https://cortexmetrics.io/
     icon: https://avatars2.githubusercontent.com/u/43045022?s=200&v=4
     kubeVersion: ^1.19.0-0
@@ -535,9 +535,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.4.2
-    created: "2024-11-12T12:44:55.566250557-05:00"
+    created: "2024-11-12T12:45:45.002461876-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: 8f51aaf290894e8d7dbead8f47bfaa4a5759a178f9b69945dd34fff37da8ddca
+    digest: 3396d86921d6125514f9d7e2726bf972f87c284c3d00cc06239b5c39e99df658
     icon: file://assets/icons/cost-analyzer.png
     name: cost-analyzer
     urls:
@@ -552,9 +552,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.4.1
-    created: "2024-11-12T12:44:55.550331947-05:00"
+    created: "2024-11-12T12:45:44.992298248-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: dafcce55469bf6df841bfa41b073abc70dca6e883c955023af1580b3f9868ec3
+    digest: 141c0a037bf7b326b5677aa7f8ccc3b58e6e8993077e81de7ac5d4686bf5caf4
     icon: file://assets/icons/cost-analyzer.png
     name: cost-analyzer
     urls:
@@ -569,9 +569,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.4.0
-    created: "2024-11-12T12:44:55.540248211-05:00"
+    created: "2024-11-12T12:45:44.981895539-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: ea068147e34abe50ba460c3077c3a051dac0e450d834d8beeca0db464d68d07c
+    digest: 7d5e0981a864ca4f30a344a4a6525256c55532627e00800158025cf5117c433e
     icon: file://assets/icons/cost-analyzer.png
     name: cost-analyzer
     urls:
@@ -586,9 +586,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.3.5
-    created: "2024-11-12T12:44:55.525535424-05:00"
+    created: "2024-11-12T12:45:44.969917689-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: bd7297eb7de159574d85f0a2828e807f04752b81edd5e1d1a00aa81a57941784
+    digest: a0196dfc7a9a1a35dfbc502c1bad069d24355452b03c958c8e25c6a729d04c46
     icon: file://assets/icons/cost-analyzer.png
     name: cost-analyzer
     urls:
@@ -603,9 +603,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.3.4
-    created: "2024-11-12T12:44:55.514741626-05:00"
+    created: "2024-11-12T12:45:44.953721158-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: 1a3278f9306664b04ed7eb7dc40c1eb5b9b314981fbba633c215107f8ca90f07
+    digest: 865c0f0648ccd190783d0e8d0ae477c63d4839be5d07c31182dab8c121071dc6
     icon: file://assets/icons/cost-analyzer.png
     name: cost-analyzer
     urls:
@@ -620,9 +620,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.3.3
-    created: "2024-11-12T12:44:55.504999013-05:00"
+    created: "2024-11-12T12:45:44.938548126-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: ec24f742e14462eea7fc6a7864c79ebfdb764b77abad9b04958da26f97b4ec53
+    digest: 855ab28ec0a7c2d3cbb48f3cd04648dc940eea48dcf693323be40265fe13f66e
     icon: file://assets/icons/cost-analyzer.png
     name: cost-analyzer
     urls:
@@ -637,9 +637,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.3.2
-    created: "2024-11-12T12:44:55.495174126-05:00"
+    created: "2024-11-12T12:45:44.92815173-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: 075a80373e4a6ef4d361a80cbcc4f4c320d9cd793bc259880935b127ada6c79c
+    digest: a6afd61dc2cd1653e8007d1611e4b42e10bfc4b375457d535561a53281fe0c1d
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -654,9 +654,9 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.3.1
-    created: "2024-11-12T12:44:55.485164586-05:00"
+    created: "2024-11-12T12:45:44.911818275-05:00"
     description: Kubecost Helm chart - monitor your cloud costs!
-    digest: 534b7b48e87b4894f65a73684c728bae5469806e3d44868ef3616cab7034f1c7
+    digest: 9885d7f4af5e2cd318b29f55d0f841cf3dfd50adf3030a8da9e7f9651dead75c
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -671,10 +671,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.2.5
-    created: "2024-11-12T12:44:55.475496673-05:00"
+    created: "2024-11-12T12:45:44.902034372-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: a49bcf94518c4f0b0fda25195cf72f87e0a4502363b5ebf19bcdb28be07c7b7f
+    digest: 0f554fcabbc7cc605488c91a8a5f2b379d533f3b8d2503e1ce74bbfc27e76302
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -689,10 +689,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.2.4
-    created: "2024-11-12T12:44:55.465761944-05:00"
+    created: "2024-11-12T12:45:44.891629353-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: b04e1e773127631461e4ef3257c0165b29389830791501938950d46659524cf1
+    digest: f501dca6f04f5205aa75705168a5df85861bfe8e41c0bf3e24949e3a33da3cc1
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -707,10 +707,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.2.3
-    created: "2024-11-12T12:44:55.456501745-05:00"
+    created: "2024-11-12T12:45:44.882632748-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 47a91929982aab1a6e53d5557a462aa5e8382d3a9a029c1c255102bfa3322af0
+    digest: 5ad5fa5a1f2cddc9429535d1e796d85c163543ea9594a1db8d8bec4b3267ef28
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -725,10 +725,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.2.2
-    created: "2024-11-12T12:44:55.445606148-05:00"
+    created: "2024-11-12T12:45:44.872486015-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: bac067556619e81d12a9b2a7c154a69359fcf265671fb5ae1bfa0a1049323986
+    digest: 60933c3991106306a8f726cf6c4b34efd970842a22ab385fb238d9c891aa2927
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -743,10 +743,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.2.1
-    created: "2024-11-12T12:44:55.432604121-05:00"
+    created: "2024-11-12T12:45:44.857998082-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 3d649ae279264dc17fe72c9801324214a3b079175e88f256fe1bec33612b25a9
+    digest: 279a5105c85e7a776f185df923d4ee36411d2e9aa400cbd041e699cca5d4903c
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -761,10 +761,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.2.0
-    created: "2024-11-12T12:44:55.42239231-05:00"
+    created: "2024-11-12T12:45:44.843744505-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 4c601d9d8440a8b0a07221415efb934ce1f9556e7913909dd56a74413d9003f3
+    digest: 5a21259dc5ceb936eab41f2b8eaf5156518b25c4732c61c6ee500dfccf933369
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -779,10 +779,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.1.1
-    created: "2024-11-12T12:44:55.409592828-05:00"
+    created: "2024-11-12T12:45:44.833850621-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 84f0bd104837fb41fddb4f5170583ddabd217a00b0819cc0f75bb6d0304ac393
+    digest: c01337e9a2e3f485f31df0a8946977a66166a3adfcfa69a723c852b665f3b506
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -797,10 +797,10 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 2.0.2
-    created: "2024-11-12T12:44:55.400076902-05:00"
+    created: "2024-11-12T12:45:44.825853798-05:00"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: b1588c124633cd57728ed194954f7bf4edd29b6cf918965ffbe5517dbf6de73d
+    digest: 6f8551f6a2de48280687342c2e02066e0e860136a0d10801fde711fe4eaf36b1
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -815,7 +815,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.108.1
-    created: "2024-11-12T12:44:55.391274217-05:00"
+    created: "2024-11-12T12:45:44.816939086-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -831,7 +831,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 2b3aee9422f1ecbe100b68292c87d31e4ddd666c3ac24efef703517dbdd4e38c
+    digest: 43b33808136681e5810c9d8e1e0640fc79c584d1e499086f097a01adaff61e8a
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -846,7 +846,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.107.1
-    created: "2024-11-12T12:44:55.375676232-05:00"
+    created: "2024-11-12T12:45:44.802241596-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -862,7 +862,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 8fee246330fd65c154fd0b985e84b3ff9479649125e693f6c4b4156193344f42
+    digest: 279d3a7c4af058c343c803c95e00b48e278ae7434b75b27e2a190ff9f8fab72d
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -877,7 +877,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.107.0
-    created: "2024-11-12T12:44:55.360877874-05:00"
+    created: "2024-11-12T12:45:44.79153503-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -893,7 +893,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 819503c74e67c7c4d2f19234e3293640e16b74c9876ff679ed842d4640f97bed
+    digest: bebc141b8c0451eff31dfaf92674550a69d053b663d095f79929acc394256f6e
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -908,7 +908,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.106.4
-    created: "2024-11-12T12:44:55.348485327-05:00"
+    created: "2024-11-12T12:45:44.780989482-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -924,7 +924,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 346c919c5bcded80f38aa285f83775fc12b77751c14f00570d4aee61a58fc379
+    digest: 4e51267073686a4d58f0beb39445e6755d30cf8dd4020e058e200bf28a5c29bb
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -939,7 +939,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.106.3
-    created: "2024-11-12T12:44:55.33039436-05:00"
+    created: "2024-11-12T12:45:44.770486694-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -955,7 +955,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 03fd3cc34f26e949d6ac89a7fb2f78086d5cc3de83df98b7031a1c55e11b5e5d
+    digest: 2f0303b4eea7b113d68910ce904bb7b041de849340dcca483df5afc751114a89
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -970,7 +970,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.106.2
-    created: "2024-11-12T12:44:55.312902493-05:00"
+    created: "2024-11-12T12:45:44.760141979-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -986,7 +986,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 4f26a1475cf1ded3e764a5a1a94974cac969c5b4923cb4702158b1192a0c838b
+    digest: 4f64f58cbd8df36c40fa93e57df85ebd5f4d6cbec588c677be8afe2d41b309a1
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1001,7 +1001,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.106.1
-    created: "2024-11-12T12:44:55.299691592-05:00"
+    created: "2024-11-12T12:45:44.749654869-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1017,7 +1017,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: e5f68f48ac6d1cc855fa89372f1f5b49613ac104d18eb18f4ab02d04857618d9
+    digest: dc37bb30fd00bd2c28ec026ca6da963c210876f1b6d2dcb8939e41a0c365878f
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1032,7 +1032,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.106.0
-    created: "2024-11-12T12:44:55.289309821-05:00"
+    created: "2024-11-12T12:45:44.739135856-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1048,7 +1048,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 8b12879270af423c90fa06bfe4580ce1704632ccd371c0eb16513e4118d60e2d
+    digest: e1c5b91ac80ea8b4c0888191d496031829b8d2053216b97e855963e9974a5874
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1063,7 +1063,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.105.2
-    created: "2024-11-12T12:44:55.277984245-05:00"
+    created: "2024-11-12T12:45:44.72580046-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1079,7 +1079,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: a63fc486c9bc97924de2c370d27a9028bbd58e03eeab4f3cc529da351782d879
+    digest: b6fd22fb56925e9268e696507e1de78c26b163c2a708624eab647decae790477
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1094,7 +1094,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.105.1
-    created: "2024-11-12T12:44:55.260300101-05:00"
+    created: "2024-11-12T12:45:44.713055738-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1110,7 +1110,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 34e77b59b68f8dae566146518329c511cfbd03b5f918ab472372352190e3b246
+    digest: 838bd9c402cd05e0b0b656359bac87c195ecc4fd1ff2e28bd870cd8ede9f3538
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1125,7 +1125,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.105.0
-    created: "2024-11-12T12:44:55.2469594-05:00"
+    created: "2024-11-12T12:45:44.702435107-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1141,7 +1141,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 92d4581e3dba5151d3d2a865391e3d4bbee45972972829d81a2912211209db6c
+    digest: 54f75e9c0d05bfb002b62030e94dcebcf46efbad9fe08bd7d56c1e32eb71e4e2
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1156,7 +1156,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.104.4
-    created: "2024-11-12T12:44:55.232778864-05:00"
+    created: "2024-11-12T12:45:44.693169552-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1172,7 +1172,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 4a5c52d2a9614836c27ea41b9468862d715b34e0cc72be2e2e4759fe0c9d27cc
+    digest: e215c3a833bd416dc4670ebe37938f467e1ecc684654c9715c59d0e5c28c6847
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1187,7 +1187,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.104.2
-    created: "2024-11-12T12:44:55.222348596-05:00"
+    created: "2024-11-12T12:45:44.677470473-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1203,7 +1203,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: a1c5046fd542927b695dd79defc3eeccbc637756e61df6441f1b34862c2f21bd
+    digest: 75f9d569f8224955421b17d2843a2072746a958de5cea156d6c914990f8d3f07
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1218,7 +1218,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.104.1
-    created: "2024-11-12T12:44:55.211578568-05:00"
+    created: "2024-11-12T12:45:44.666097752-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1234,7 +1234,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 06936d5539654f795d3a60c5084ccc479a11bc20aa766288b82f325319ed3063
+    digest: 993847d9239b63d0620f04d1dc9327eef8dc3f7f7e3351612122ad5ccaade45c
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1249,7 +1249,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.104.0
-    created: "2024-11-12T12:44:55.201747736-05:00"
+    created: "2024-11-12T12:45:44.657340907-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1265,7 +1265,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 77ea90bbb79f13578e01236f17fa6b345503106a7c550aab64bfa99bd3619a68
+    digest: ef2a3a3b81008539a2aacea93678744e16a583332460ff0146f3296ea2089e06
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1280,7 +1280,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.103.5
-    created: "2024-11-12T12:44:55.186900578-05:00"
+    created: "2024-11-12T12:45:44.6479747-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1296,7 +1296,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: a7d36c405c0e2b61d41f9c5d70365acd8210d6d8d5dbed65fe7b79c52c55c4df
+    digest: af62efbe78a4a688a90af57ef77d5af41a88866a99be241a5cf68089d6e1619e
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1311,7 +1311,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.103.4
-    created: "2024-11-12T12:44:55.176016562-05:00"
+    created: "2024-11-12T12:45:44.638540296-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1327,7 +1327,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 3a9a10eea20ed8ed5f15df43ec296239fe9aeeb9a8df44c8edfc54a035d4dd30
+    digest: 5d2573ea2dffeadba77adca720bd56e2a0a4b37ff4be6e9b75681432a55393b9
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1342,7 +1342,7 @@ entries:
       catalog.cattle.io/release-name: cost-analyzer
     apiVersion: v2
     appVersion: 1.103.3
-    created: "2024-11-12T12:44:55.165240159-05:00"
+    created: "2024-11-12T12:45:44.625192115-05:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -1358,7 +1358,7 @@ entries:
       version: ~0.29.0
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: fd4b905de9e851f8f145d377c2d03c44fb7f4f342c648ff45269759413420d02
+    digest: 466f24b2c9af6adb215ee986b3970d2ef812dc1f76b6a9fe7ad1d051575bd2b7
     icon: https://partner-charts.rancher.io/assets/logos/kubecost.png
     name: cost-analyzer
     urls:
@@ -1367,9 +1367,9 @@ entries:
   crds:
   - apiVersion: v2
     appVersion: v0.14.5
-    created: "2024-11-12T12:44:55.569089328-05:00"
+    created: "2024-11-12T12:45:45.003159996-05:00"
     description: MetalLB CRDs
-    digest: 8e6c4cbfb3a9d4a839d0c007e6f4c94e6afaea90fd4822fb82c52cb2c4445500
+    digest: 959148bcab21407a58e0fac892dde1b093c6fe06da1e1d6a29c354691abac39c
     home: https://metallb.universe.tf
     icon: https://metallb.universe.tf/images/logo/metallb-white.png
     name: crds
@@ -1381,9 +1381,9 @@ entries:
     version: 0.14.5
   - apiVersion: v2
     appVersion: v0.0.11
-    created: "2024-11-12T12:44:55.566775563-05:00"
+    created: "2024-11-12T12:45:45.002828018-05:00"
     description: FRR K8s CRDs
-    digest: d9636b3614c26f16fd8bbe88c48fff0656c1398e77ff1f1b82b865633172ee21
+    digest: 926b09c77135026be2b1319da8aca09ca290443e8e30f9f2efeb06a65a722510
     home: https://metallb.universe.tf
     icon: https://metallb.universe.tf/images/logo/metallb-white.png
     name: crds
@@ -1396,14 +1396,14 @@ entries:
   cstor:
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2024-11-12T12:44:55.580587009-05:00"
+    created: "2024-11-12T12:45:45.01099188-05:00"
     dependencies:
     - condition: openebsNDM.enabled
       name: openebs-ndm
       repository: https://openebs.github.io/node-disk-manager
       version: 2.1.0
     description: CStor-Operator helm chart for Kubernetes
-    digest: c1eb63ad53ca757be88ddd2a747fcdb2160bfa0de7cd5a09ae1a0c6fd4351f06
+    digest: 02ab055517db3ee49b0ea638861bcb6bc1af460fc815b65f2bc21c78e3e3d195
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -1429,14 +1429,14 @@ entries:
     version: 3.6.0
   - apiVersion: v2
     appVersion: 3.5.0
-    created: "2024-11-12T12:44:55.576854426-05:00"
+    created: "2024-11-12T12:45:45.007014318-05:00"
     dependencies:
     - condition: openebsNDM.enabled
       name: openebs-ndm
       repository: https://openebs.github.io/node-disk-manager
       version: 2.1.0
     description: CStor-Operator helm chart for Kubernetes
-    digest: 43c98eb8429fb614292e94888fa8a3354822baf3a4137e6f5058b2fee61e8de4
+    digest: b4b8f31f5dfef8d719e83af0dc727cca309bc9a83aeb4bacbdf288adc831ac4a
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -1465,7 +1465,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 3.5.6
-    created: "2024-11-12T12:44:55.584196606-05:00"
+    created: "2024-11-12T12:45:45.013613294-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1475,7 +1475,7 @@ entries:
     description: etcd is a distributed key-value store designed to securely store
       data across a cluster. etcd is widely used in production on account of its reliability,
       fault-tolerance and ease of use.
-    digest: 95ec89f6216b3d96247b564b2d9d5113c721ad02597c8c91fffac94461492697
+    digest: 19b96aa07c19dfca23a9460bac432dd024506957e491ef89190146306fc0278b
     home: https://github.com/bitnami/charts/tree/main/bitnami/etcd
     icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
     keywords:
@@ -1497,9 +1497,9 @@ entries:
   filebeat:
   - apiVersion: v1
     appVersion: 7.17.1
-    created: "2024-11-12T12:44:55.585631944-05:00"
+    created: "2024-11-12T12:45:45.014598215-05:00"
     description: Official Elastic helm chart for Filebeat
-    digest: 17e4e31cc04e64de3ae415088671f66a81998c8e32a4cc32b7f13d499236c003
+    digest: 75a32e456edc668ae6f40637de68f2e4b81969ff71eb56a6a144d7deaefbdeb2
     home: https://github.com/elastic/helm-charts
     icon: https://helm.elastic.co/icons/beats.png
     maintainers:
@@ -1514,11 +1514,11 @@ entries:
   fluent-bit:
   - apiVersion: v1
     appVersion: v2.1.0
-    created: "2024-11-12T12:44:55.586346337-05:00"
+    created: "2024-11-12T12:45:45.015239622-05:00"
     deprecated: true
     description: Uses fluent-bit Loki go plugin for gathering logs and sending them
       to Loki
-    digest: 0577b0f27c43cc2cf1b991c798c0c78d9d46974b012f079d6617ba23b5cda33b
+    digest: f9def86e4e9ac4d960ad415392b950a3fffe2e6a7740efa0dd41ce1233a3af6e
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     kubeVersion: ^1.10.0-0
@@ -1534,14 +1534,14 @@ entries:
   frr-k8s:
   - apiVersion: v2
     appVersion: v0.0.11
-    created: "2024-11-12T12:44:55.587957093-05:00"
+    created: "2024-11-12T12:45:45.017089626-05:00"
     dependencies:
     - condition: crds.enabled
       name: crds
       repository: ""
       version: 0.0.11
     description: A cloud native wrapper of FRR
-    digest: b912a0c5ef96092cc321ca1a13caa1a7ac6e0d48f1f129ef5ba4f7038400dd77
+    digest: a08d89ff01292fdb38796aa044b5e7aca80f9d544e45525a57a42157086eddc4
     home: https://metallb.universe.tf
     icon: https://metallb.universe.tf/images/logo/metallb-white.png
     kubeVersion: '>= 1.19.0-0'
@@ -1555,9 +1555,9 @@ entries:
   genieacs:
   - apiVersion: v2
     appVersion: 1.2.9
-    created: "2024-11-12T12:44:55.588972073-05:00"
+    created: "2024-11-12T12:45:45.017622973-05:00"
     description: A Helm chart for genieacs
-    digest: a5457334235f35e95dd7057e0e87f812c86b9598a5fefea1cc8568c96ed08cea
+    digest: 39c0e190cd64f340820f11dcaaa0a2b943d3df957e4066fc4c934855c9b0f225
     name: genieacs
     type: application
     urls:
@@ -1566,9 +1566,9 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.4.2
-    created: "2024-11-12T12:44:55.593962117-05:00"
+    created: "2024-11-12T12:45:45.020542082-05:00"
     description: The leading tool for querying and visualizing time series and metrics.
-    digest: 850689d71e460e2634dd09c6500b9f10ed64578d334d2d388909dd69658dbbac
+    digest: 715613ae1c16ce02b9e33a4407b801ab5d633c7623614a66c34d18b90d52b3e6
     home: https://grafana.net
     icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
     kubeVersion: ^1.8.0-0
@@ -1592,9 +1592,9 @@ entries:
     version: 6.24.1
   - apiVersion: v1
     appVersion: 6.0.0
-    created: "2024-11-12T12:44:55.590528722-05:00"
+    created: "2024-11-12T12:45:45.018482027-05:00"
     description: The leading tool for querying and visualizing time series and metrics.
-    digest: b6d90b8f3b8b86997d62fb08afb2803aa73f6d252bd357c626d42b8e7cd46212
+    digest: 19853388d0b795ad170fd0590f6f822415943a6043e08e371ed4dd969c0c51a1
     home: https://grafana.net
     icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
     kubeVersion: ^1.8.0-0
@@ -1612,9 +1612,9 @@ entries:
   infinispan:
   - apiVersion: v2
     appVersion: "14.0"
-    created: "2024-11-12T12:44:55.595433487-05:00"
+    created: "2024-11-12T12:45:45.021418619-05:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
-    digest: a7255ba6ebf9b8b0962c1738a2e0596951402170220c03550e5975119d7dd380
+    digest: 579112633c251f65d49b7aa1df72534fb2d974a117f30ffd3e268e767c4bffcf
     home: https://infinispan.org/
     icon: https://design.jboss.org/infinispan/logo/final/PNG/infinispan_icon_rgb_lightbluewhite_256px.png
     maintainers:
@@ -1631,9 +1631,9 @@ entries:
   influxdb2:
   - apiVersion: v2
     appVersion: 2.7.4
-    created: "2024-11-12T12:44:55.596420065-05:00"
+    created: "2024-11-12T12:45:45.021996425-05:00"
     description: A Helm chart for InfluxDB v2
-    digest: c58d81a93726961ab5e86df5a814eda4844d16196a617ef12645c944fd0b210d
+    digest: 5f1bef7b76e9495f8a25dd723f5594c372cdd3216989b846608b2d75ed1e322a
     home: https://www.influxdata.com/products/influxdb/
     icon: https://avatars0.githubusercontent.com/u/5713248?s=200&v=4
     maintainers:
@@ -1649,9 +1649,9 @@ entries:
   jaeger-operator:
   - apiVersion: v1
     appVersion: 1.24.0
-    created: "2024-11-12T12:44:55.597170516-05:00"
+    created: "2024-11-12T12:45:45.022416607-05:00"
     description: jaeger-operator Helm chart for Kubernetes
-    digest: 317fdec266a318a8fe7dcc456de2ed0f119c34b2442d0124ab0a5fed076f46d0
+    digest: b39170bcd03200bc86485b867ac291ddc9f401b659cbd626d7e4436c6310fd4e
     home: https://www.jaegertracing.io/
     icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
     maintainers:
@@ -1691,11 +1691,11 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.3
-    created: "2024-11-12T12:44:55.943788753-05:00"
+    created: "2024-11-12T12:45:45.416372001-05:00"
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: ee808744e989e1a6254dd3d73b379fbf20a357b8d536b7583e3d66b3a6dc79b6
+    digest: 0954baa5476ae6c4c284dbcada7823c9442d6088a7e2d4fcbbe78ebdf4142a38
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -1749,12 +1749,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.939540253-05:00"
+    created: "2024-11-12T12:45:45.412173177-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: b9621055fb458c3f90a29ec3a8dbc100a9b026d9d797743365606bbc05e4a54c
+    digest: e0fabdcdd48e59b3adbc3b5eb4fbc1b92b0eff8901d6f95173b966b14239ce1d
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -1808,12 +1808,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.93544443-05:00"
+    created: "2024-11-12T12:45:45.407946199-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: a56224d849f47c800e6c1f5c10912960c116e4b03eb52bb7f0a086665c4d289c
+    digest: 2160816bff771a2f6f3b504ee1a9c0d9ddee7d15c2cccb66da2c44d02aab9944
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -1867,12 +1867,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.931096085-05:00"
+    created: "2024-11-12T12:45:45.396817939-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 3518fda5ac4ba133b19f2d5fb3a2f7a362afdbbfc5b38109064eecae8b524994
+    digest: 7cef669d4951aaf3d9f016979a90707fb5269b48ee6aa2d5b82fb73909eaad6d
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -1926,12 +1926,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.92733478-05:00"
+    created: "2024-11-12T12:45:45.387611462-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 954f34625e31eb4fa90f548ab99e8c7f9098cb6d46cf0a237877bfcb585281f9
+    digest: 396c0e4085482f8706687410d5a7ad902edc25d48626f7392a85bd7991a4b124
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -1985,12 +1985,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.923508653-05:00"
+    created: "2024-11-12T12:45:45.382953874-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 43607169d900fdaa97686009fd94710432a935193856c1e47093cb49ef953b1d
+    digest: 69484eaa7f0d335c5531ec4f940d22d0bfc1a0a607dc45ffd4a9469ae38dda88
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2044,12 +2044,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.918755389-05:00"
+    created: "2024-11-12T12:45:45.378270133-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 8677aadfb56e583f8cb4439671c7bb423d1c9d63e7f47575e980d76ae49abd26
+    digest: f5c5361a83af0c3bdf75009868783ba9941849b6cee8a6fbfb74aeae0bd649e2
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2103,12 +2103,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.914826556-05:00"
+    created: "2024-11-12T12:45:45.373005662-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 83409f246ec491bc7214304a578cc4e1e358606ad0b7e30c6227e6f8a15c6972
+    digest: e45bd7de93557ac89c3f519016637cf4eb13d948c916fdda76f7305a527ee36c
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2162,12 +2162,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.911097579-05:00"
+    created: "2024-11-12T12:45:45.366573472-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 90d085764e69c1c2940bb6e73f1eb35c847eaec7d5e7fddd635730b19b02101d
+    digest: 968d39c8229b5945d0dfe4e766499b9e79c1073511af3b864ba69d63173c5a68
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2221,12 +2221,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.878244269-05:00"
+    created: "2024-11-12T12:45:45.29459631-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 016c23f9ee2fc10a78ba3fb674453aeaf502955114f7f3f4dbcc4bbe622642d1
+    digest: d3e50dd931713868480f5884f99ed86a4cbd775ed25107c281de642dce1d628d
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2280,12 +2280,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.2
-    created: "2024-11-12T12:44:55.874371048-05:00"
+    created: "2024-11-12T12:45:45.288626975-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 57d5d3bbf5eb271b0065625ce2ef4e852a6cfbe2464526ea359a20f05c512107
+    digest: 321a59d486048b4d1dd14bdae98303d07074bc80a25a3e900d592688114e54d1
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2339,12 +2339,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.869701633-05:00"
+    created: "2024-11-12T12:45:45.277043645-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 3f72a7d52137b2341b6eb2eb138e6eb317b244b340247219b0d52305de3ae6d3
+    digest: 6dd26df966d0d222a8c792ea2e65bff5206d8bccd3ed9d7b420e96b50b7b909f
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2398,12 +2398,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.8654492-05:00"
+    created: "2024-11-12T12:45:45.271264569-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 2341cfd6c1953b95cb01d6ffd7317129f1a6213ebe859bb265821c0b1820ff43
+    digest: 530373af8c3f4da346d530d3877108da06dc04656fd06309dece3a403deebb12
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2457,12 +2457,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.861601967-05:00"
+    created: "2024-11-12T12:45:45.265665845-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 2c21103db31417d929fba7513402ba2cc2435fa323ba73c4245b6eaaef4f0b28
+    digest: 740fef314a172cf6cbe3134942123eac960215208cf308f4755a34980df10930
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2516,12 +2516,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.90681126-05:00"
+    created: "2024-11-12T12:45:45.360436599-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 3bc2c078d6398e13f4260d83bf0eda2079c549eb0f055481dd4eec0cb0b62cfa
+    digest: 203ba0734dc7ee2d59fe4fa7bf85b2e274ce3fbb088f95ff183dfd0e894eee46
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2575,12 +2575,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.902363856-05:00"
+    created: "2024-11-12T12:45:45.351299907-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 833dc749c72a24431c1f8ba12980de4b12b902863db868b1d063062a2c8aa63a
+    digest: b1fa42e2870598c79cf73ed6046289bb80b20ed0dbc79201c93fa4a7a49d9dc6
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2634,12 +2634,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.898518471-05:00"
+    created: "2024-11-12T12:45:45.344650969-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 6efc4e06edd94487cb7bedfee7672fa18dad37eea39053da9b807b7230decc92
+    digest: 6951dafef0d9c254ecb5e59d9f8c4c7043cbf7f9013ed10188484f78d18d8e66
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2693,12 +2693,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.894517638-05:00"
+    created: "2024-11-12T12:45:45.336349459-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: d83e35bb04d55b8b122f24ef36135503f9c8194b81d8c4e0c74e175c936d0a5e
+    digest: 18d121724aee469d24cbb46d75e3f163734fdd151a3f72cc779b9a421cb09c2c
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2752,12 +2752,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.462.1
-    created: "2024-11-12T12:44:55.890165796-05:00"
+    created: "2024-11-12T12:45:45.323172574-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 9dd82f9cfe7fad169f2340cc37f8813a41d6f31bec631d4099ec819c48e9fe58
+    digest: a2252785f0e2da5e271bb4df3e633c28f2262716541a405843617c1643676c38
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2811,12 +2811,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.886310934-05:00"
+    created: "2024-11-12T12:45:45.306476442-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: f6ef78563cfc5c4de9449c6bc6e89fa51d9f63e95780c650500eb6016215cd15
+    digest: 6c4cd6f207dd966120e050f4c889ae2598cb56945c8531f626e074bf5a2e8a3a
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2870,12 +2870,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.882351487-05:00"
+    created: "2024-11-12T12:45:45.300406122-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 96e6faf2a732e76d8d405a4cfc798881b0addcf21457cdc31853bad7acf5792f
+    digest: 0c3fcab35cf70e968ca868edbb0635dd91c6bc6b49879c15735dc62761559f62
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2929,12 +2929,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.857596783-05:00"
+    created: "2024-11-12T12:45:45.252304622-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 08896ab7bbd5369dbf11cac5f951c920d4d91edccc23e972423f143a20389c4f
+    digest: 868bd565f7efecf56e9a65f34588a2e10ffd262bf6e4fd8ef77104bcb481fd66
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -2988,12 +2988,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.852868553-05:00"
+    created: "2024-11-12T12:45:45.246509714-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 6a2d63e06e87102902e5058cb24a197bd14dfdf283d6db1757a3764c4be1c4d1
+    digest: c99e7dff398d3c91c627fd95f267d6b5b7237868ad300bb3737b3d3d908667d8
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -3047,12 +3047,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.84910119-05:00"
+    created: "2024-11-12T12:45:45.240976341-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 056d3836c414cc825c2f19d9f64ca688c3778fb21fbf923bd93b0f97217cd327
+    digest: c0cf549aec24c52d8f667028f5775c77c5838edb59ac03670e450ddf84006c76
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -3106,12 +3106,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.844706664-05:00"
+    created: "2024-11-12T12:45:45.236815759-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 21a364f5e76a400745a18a5f90368cf3732dd31614ccb4d6fbad98d55b9ae13a
+    digest: 80f534d864e6a5cb4fd08841ad1395ff217bc10681ad9222955283403edd5130
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -3165,12 +3165,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.840825304-05:00"
+    created: "2024-11-12T12:45:45.233091878-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: cd769582efe8ca0cdc47607d9ab2f3d98d74ff78aae9daf184a272aca78f3397
+    digest: dd3a7c7c20da09f321d6ccfc1eceefada436b6ffc0aa787fe0ef29c59d12e2ba
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -3224,12 +3224,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.3
-    created: "2024-11-12T12:44:55.836821895-05:00"
+    created: "2024-11-12T12:45:45.229555381-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 31db127a30797d660f8e52925263baa4ca46b443991af7f78f0a1127b44ee05a
+    digest: 2c113050916dde20399e2eb8fdc89223c98d0595f61d0f10310040c6464fa649
     home: https://www.jenkins.io/
     icon: file://assets/icons/jenkins.svg
     keywords:
@@ -3283,12 +3283,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.2
-    created: "2024-11-12T12:44:55.832433404-05:00"
+    created: "2024-11-12T12:45:45.225227046-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 06fad828dcc82b99ec6fc4449b7bd90216465cb50c0fa91887a869da61b78257
+    digest: 89c8bccb2faf8b7aedbc1777443ac90fd8742fdcab7d200f3563f09fb2007bbc
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3341,12 +3341,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.2
-    created: "2024-11-12T12:44:55.828732319-05:00"
+    created: "2024-11-12T12:45:45.221740691-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 62c6ce0523ecb1226c2afa5d58cba3575fd3a54625d87d16593e8d8d62fcc0b1
+    digest: 26b62ba9b229a0653c249f0da97fcbdd81ebf32f897ad8e0f4a5e5fa63032bca
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3399,12 +3399,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.2
-    created: "2024-11-12T12:44:55.824885402-05:00"
+    created: "2024-11-12T12:45:45.218184991-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: a38d706cab14b578d1280015fbcaa39d69b20223f09d4d876ac70a21a90e3dae
+    digest: 48ce03e1b6bce80043b1d68734d4711001f33875ee9c47ebfcd6baea81043c7e
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3457,12 +3457,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.2
-    created: "2024-11-12T12:44:55.820304295-05:00"
+    created: "2024-11-12T12:45:45.21453778-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 1dc70ca106c2ebd7e2a6a68501cc19858c90e51f99246e30533f4afc3b3416e7
+    digest: f0a0d69d568b85ebdabf41cdeadd039e61355837cab0ce10a6adcfebc577bf33
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3515,12 +3515,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.815854131-05:00"
+    created: "2024-11-12T12:45:45.210242814-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 893d3eadcfab901d39ad8341e3c30a962a4dc1c29c6260a3867432464fd3d7d0
+    digest: 8547bbbe1dfef6cfdbb748946c4f18c5990c6a45dd3256e199d6cdc383c194e8
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3573,12 +3573,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.786157064-05:00"
+    created: "2024-11-12T12:45:45.184116784-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: c37a2a1a68591b6efb982646327b39a9d5a4edc93ee184ce8a91b1043830483d
+    digest: 1498b52789dffc43784e9673993343b439cf1c782c3e5d82180d6513af9da8e8
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3631,12 +3631,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.782329812-05:00"
+    created: "2024-11-12T12:45:45.180564787-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 4525c2f5750e9da17a47121feed99cfa583ceadb710266bfa3fae817410e0644
+    digest: 6c1b915c0beef2c71dbdfe6b6ed5c170a2a91b5f1dc37e22f242c434cb46fdbc
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3689,12 +3689,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.777615355-05:00"
+    created: "2024-11-12T12:45:45.176414022-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: ccf5a92d6e8a27ff4f2b32d699303e85dd75fd8a62cdc18904e95b10ff2f7056
+    digest: 22b8a7d5585ae69f76fa7a6410417d67727036927d78bd4a0089f3fad994e852
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3747,12 +3747,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.771432741-05:00"
+    created: "2024-11-12T12:45:45.172615228-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: d00c7700ce45c3beb48b85799a0f86606f8c39a59f72bfff4e2b3ea13829635d
+    digest: a13f191b6bfb7323faaf1d80c400d7c8507e976152f01e9dcfd97d1ac87c12f0
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3805,12 +3805,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.764909885-05:00"
+    created: "2024-11-12T12:45:45.168808576-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 3aa55d011d223cad61d5460868d581af1a3e858d9a18842365a783bf274fee40
+    digest: 8ab323701a935234706ca25cf3faa7ad06489730089f937cca1183dc57f65996
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3863,12 +3863,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.758590467-05:00"
+    created: "2024-11-12T12:45:45.16436931-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 634334282fd649f369c3a24d8651dd034c0d1592360183d6a9471c60b08a92a3
+    digest: 5351e01088f2742e61d31a39d540ac1ebdfc43cd9c583f7d42577bafdc187c2b
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3921,12 +3921,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.751433307-05:00"
+    created: "2024-11-12T12:45:45.160634554-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 8e6b8860adda0c3198e86c75ffde958e00e45b2ad4ea7fabd22686ec13a3419b
+    digest: bc8908fb37690973dbe340bd3e47be3cf23327ae0306bc839e857050e2a45df6
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -3979,12 +3979,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.747195488-05:00"
+    created: "2024-11-12T12:45:45.156811018-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 27f138bfec003ee31d35a373c88b5164ce15046378a537954bba44fb9b2133c1
+    digest: bea7db7e7949ec0062f9d79a22d086ab662df20ffa235e4bd8769e0838790f88
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4037,12 +4037,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.742619882-05:00"
+    created: "2024-11-12T12:45:45.152235224-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: a4f714a7869a8420e1072a9201f09264611f3038e69e3439d764223268de02e4
+    digest: 0d8e5a1bf91234474d196f44cf85ec1b206578619bec29a3f70ac6ceba3e7a29
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4095,12 +4095,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.737754898-05:00"
+    created: "2024-11-12T12:45:45.148559175-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 153778897ec788a3f048f37b584d3d41c61eeeadff482e444c4c5c2b7a2d468b
+    digest: be09821d73e21c4a153992dd1fc1be563092dce35a97df41ef1475f7837aea70
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4153,12 +4153,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.452.1
-    created: "2024-11-12T12:44:55.733517607-05:00"
+    created: "2024-11-12T12:45:45.144877556-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 3ecab886c874fdb03fc0a9ef9fd2c59f31b888129cb6b0d69f5bab7a1b01a987
+    digest: 5e5f95c5381661b8de3e368cee98d64252d5d45ef97bff96a1593211fbc8ee41
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4211,12 +4211,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.729684981-05:00"
+    created: "2024-11-12T12:45:45.141151397-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: d498b48d77526811992af73a830a18f4889765be8f29edf05d68889a409a1274
+    digest: f553949df36844c5b9ee0d62b38636b33468c7d76f08bb42869a77ec0293ac87
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4269,12 +4269,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.72581009-05:00"
+    created: "2024-11-12T12:45:45.136694899-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 4de52f37c3799d6c2ca53ef4d3a292f6b0ed0e64f264160e8aa453cdf2be1863
+    digest: eed8c55cbf31e97f18e727ab9bf6f0220a4cbb274cf7aff8fafa3fc4e7d3a359
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4327,12 +4327,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.721092571-05:00"
+    created: "2024-11-12T12:45:45.133053848-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: a8d705543bed6d48bc9933fb73d13da5dc28b05432cd93259fec52e369b72bb7
+    digest: 55d223f42b9e434040dca58a5bb43a02feefb24005d512414bd4149d3f28d34b
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4385,12 +4385,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.812000597-05:00"
+    created: "2024-11-12T12:45:45.206663553-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 9eecf1f6a274f08ab0441a779abd34c5afe5d6411801a2151c3f0c2ed0fab1f0
+    digest: 032bdc430f78a2ac44f2ef6f584d6a41441a2d3c206035354da0e5329aa3e57d
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4443,12 +4443,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.808075446-05:00"
+    created: "2024-11-12T12:45:45.203013154-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 385148a870adf9224d97fbf2226da0226ad22d1c987bb06f681a1723b150cdb9
+    digest: 774dfffab915435d177707ad5f48ab08134ca579a28d81636bcb91a4f9e0c807
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4501,12 +4501,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.80323261-05:00"
+    created: "2024-11-12T12:45:45.19873327-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 14fdeab862bba2fe1ca3ed79902f1f168a0fabc818a4aa47e6135b1a2a0a960e
+    digest: 2be0c1bbe5c402d46623e6741f5b06e84be38ab6ba9d88a4582304d7b7c4e590
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4559,12 +4559,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.3
-    created: "2024-11-12T12:44:55.799385506-05:00"
+    created: "2024-11-12T12:45:45.195235057-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 8540461b0b297c2f5f7840594b3b52ccd5f50bc32e01427d9e23637844122000
+    digest: c0e96b396ae7e579d4ae1c0ce66454233d861e44090f00a99bcdcb3b77c1a460
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4617,12 +4617,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.2
-    created: "2024-11-12T12:44:55.795603144-05:00"
+    created: "2024-11-12T12:45:45.191693371-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 900bed97dded71ad1802383d08cabd164b1d27b637ad4da2fb871058c256d53f
+    digest: 131fd638658a3319931495d00545f6ea4338871dc4d4c3b0694a26634cf22f26
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4675,12 +4675,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.2
-    created: "2024-11-12T12:44:55.790991732-05:00"
+    created: "2024-11-12T12:45:45.187725873-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: 963de23a624040b1e4cf580c670ffdb94b3d2c26ca2ca2578ef8a10c96497269
+    digest: 9667fb21f502b551f3e3b8ad115ba9088c73783a8b71624b9de11dca104ebee9
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4733,12 +4733,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.440.1
-    created: "2024-11-12T12:44:55.716374638-05:00"
+    created: "2024-11-12T12:45:45.129336168-05:00"
     deprecated: true
     description: 'Jenkins - Build great things at any scale! As the leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project. '
-    digest: ae724fd643fbe75ab0f6c141ae0d1a89fa191cde6da57f6a9ab86e15a5b072f8
+    digest: 79b41f1d9b705718f7329b990adeb7131447b66566e394c62af9886102ed86b0
     home: https://www.jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4791,12 +4791,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.3
-    created: "2024-11-12T12:44:55.712412867-05:00"
+    created: "2024-11-12T12:45:45.125523251-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: a7a154b4a41059c16223436a3d9032ce1cb2cda95779752f40bf01fb03af3526
+    digest: fd8483a0e438dc996a9889a9190facea6c7120b5ae2cac1f9120d2bd9dabca6b
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4850,12 +4850,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.2
-    created: "2024-11-12T12:44:55.610253397-05:00"
+    created: "2024-11-12T12:45:45.030540873-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: a6c98ef70b1b1c0b6a440a6c051d2f23a3fb6c7cb74be0219f46aae618f6f25e
+    digest: fc147a541b130d9991e1c42ef95462f39bcfeb9fe54dae8b33134902a3163f2d
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4909,12 +4909,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.2
-    created: "2024-11-12T12:44:55.603808663-05:00"
+    created: "2024-11-12T12:45:45.026037745-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: ad7d076d5497be03fe30afd23eaf4b0940f399e1b93610aba33e316644a2584d
+    digest: ca8513e1f660ee58505de5fe9a89fd03e2a7262345dc7c2b1ec1c40750d5fbdd
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -4968,12 +4968,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.1
-    created: "2024-11-12T12:44:55.708651976-05:00"
+    created: "2024-11-12T12:45:45.121310493-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: c6df9a6a9df51a27be50f9165d3b4b91a1d70788844ce24b8e9d1394b888749f
+    digest: 5956fcbdcbb02ede55f9969147a93073fd654de093504c7f229fc59d2674be6a
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5027,12 +5027,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.1
-    created: "2024-11-12T12:44:55.70362818-05:00"
+    created: "2024-11-12T12:45:45.117499896-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: 70cbc9e4d33863feefd49c789496999a2d22ea37ec0a3db58bb394da0c31a7a1
+    digest: f29f020f32d855e7f390ef78c38560c036528d480193aaec490afd17129b34d8
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5086,12 +5086,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.1
-    created: "2024-11-12T12:44:55.699585641-05:00"
+    created: "2024-11-12T12:45:45.113698736-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: 591914efc982bea456f008d6294f03c1a219fed7fd68379aeb6d055487480b2a
+    digest: 970bf54c675f28cce3f2bfbb0893ad4aff1d4df7063dc475c336ef0faaa5b2f4
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5143,12 +5143,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.426.1
-    created: "2024-11-12T12:44:55.695777819-05:00"
+    created: "2024-11-12T12:45:45.109287755-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: e526401b7d227222361259ebeb0b88a70456d5b6a76f86afff6d4d9d45278b64
+    digest: c71d9a7a5b902c83ccfc6af9a7e5b06adf9759814a2c54a5e2b6154abb93d1c7
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5200,12 +5200,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.3
-    created: "2024-11-12T12:44:55.690797893-05:00"
+    created: "2024-11-12T12:45:45.105643366-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: e1119ada424d0ef5b8c2d14b00d07bf809193cc9013feadfde703fc1a3369138
+    digest: c226e0650f9993383f1e612a8a6552d613ea5c59dbc15397d632b2c9bbb2550b
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5257,12 +5257,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.3
-    created: "2024-11-12T12:44:55.686247296-05:00"
+    created: "2024-11-12T12:45:45.102080223-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: fad5cfaf30386359e65616e83f22f846c380fee877c5dcaf2f0d0290e6af7c38
+    digest: 9506eb7c443e6d5d9d7bab36668356c2ca140a7abdc131891468836c9bc2d0df
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5314,12 +5314,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.2
-    created: "2024-11-12T12:44:55.682444312-05:00"
+    created: "2024-11-12T12:45:45.098525735-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: 03c252c601853d639be0a93409c19752542b9f324a165c1b9264afedd0a46a4d
+    digest: f21d7aa9545a2f12903388a1498391f4df4ff9fa2b68c791ce73bdb41e536115
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5371,12 +5371,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.2
-    created: "2024-11-12T12:44:55.677297374-05:00"
+    created: "2024-11-12T12:45:45.092291118-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: 01dd598b547005fe66a34afdfd9f39c59ac22d49f45e98bc3160a215bdcb997c
+    digest: 25ed72332fda3e9bfc27d9e5bd981e4fdd5492e1da272172c0f1489f5304e5c3
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5428,12 +5428,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.2
-    created: "2024-11-12T12:44:55.671314883-05:00"
+    created: "2024-11-12T12:45:45.086474328-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: be7549f5b9e7c749cc23be494f32d90ba5bed89a859368dc3ea0caaf649f61dc
+    digest: 85a10054fd26cc28b5e4f45ad7a727e6623feac458db648722ce673d912d2648
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5485,12 +5485,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.2
-    created: "2024-11-12T12:44:55.66544065-05:00"
+    created: "2024-11-12T12:45:45.080522805-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: 01f0b202066b62c98f9551d3db0c8041e06127c8b5010ed4f3dc8dbbed28bcd1
+    digest: fa2f1c2fc98cbcc76974292844b0a5aec97eb8fb2c3861122f7f1099cf86495c
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5542,12 +5542,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.1
-    created: "2024-11-12T12:44:55.659472592-05:00"
+    created: "2024-11-12T12:45:45.073861863-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: 3d421ba1b0c456fa5dce1513efa699052e9a1a755b8cea5de8faa9bedb78ffa6
+    digest: fd55485d1bbe30d03b3da9e546a2a0f5f2927bbc9bc9dad634180e2a4c795929
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5599,12 +5599,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.1
-    created: "2024-11-12T12:44:55.655768398-05:00"
+    created: "2024-11-12T12:45:45.067807807-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides over 1800 plugins to support building, deploying
       and automating any project.
-    digest: e46484494a76692dd2a462dd6e6a3c42ca863736bf3cc1b10ea904794bf67887
+    digest: 6e00a5ee7e543631e35e2d367a15338c0490d4f8ceae2fba06aa30c73b1c6362
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5656,12 +5656,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.414.1
-    created: "2024-11-12T12:44:55.651843587-05:00"
+    created: "2024-11-12T12:45:45.06176973-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 5ebab52e494ebae225d2733c24ca7a34088e1c41a8d06e570546eb30326630b4
+    digest: 2db66d5ad5c79b17da6de4dbc659d213e0a4f4ccfa80e8cf752d5ae00ab98247
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5713,12 +5713,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.3
-    created: "2024-11-12T12:44:55.647327675-05:00"
+    created: "2024-11-12T12:45:45.056897683-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 3112585b05b014ed2d20ab7fb26f00f7b53ad627faac9d7a71109e790ab5d918
+    digest: 695115e95abb5a85e07849c252fe72501dec0c27d5c985cf143e54d913b94b19
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5770,12 +5770,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.2
-    created: "2024-11-12T12:44:55.641514154-05:00"
+    created: "2024-11-12T12:45:45.053294076-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 25b45f78cd8a5c789635f16e2742e66a16983fd86eb20b998165fb9e11ec4323
+    digest: 629365fa8de5bdfb6e31d28e00d2d00ef1b776ebc3290771ac6b4ca5fff2e049
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5827,12 +5827,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.2
-    created: "2024-11-12T12:44:55.635614103-05:00"
+    created: "2024-11-12T12:45:45.04964669-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 1d089c7a48e07d266f97d36af83388dafd47375d93dd9667f8bbcd1cd17f3a13
+    digest: aaf408dd6f1fdd3acca3936d51849e44dba45b9fffbac0fb7bf170f9bf3d5a74
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5884,12 +5884,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.2
-    created: "2024-11-12T12:44:55.62973813-05:00"
+    created: "2024-11-12T12:45:45.045328102-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 98a28c1e991f8e3badcaed15c636041e6f98a3d1e9b620f43509bc0dd7abf07d
+    digest: 140245db66d5ec8e7e14216e58e17932437ba0304a773b82ca10a46506c78936
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5941,12 +5941,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.2
-    created: "2024-11-12T12:44:55.625971549-05:00"
+    created: "2024-11-12T12:45:45.041676597-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: c9e1e26b573920d599f5448a0a5b71aea06beafab0c68f19c0e3db03dc064d9d
+    digest: c1da3de7b33cbe85cb531974458c5ab86f27279b933b0c8b6698e5f5d596e71f
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -5998,12 +5998,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.1
-    created: "2024-11-12T12:44:55.62196739-05:00"
+    created: "2024-11-12T12:45:45.037617007-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 079c11337fcbe6b4ff83389e5582097f8a1c157747e168c9999bfa5a4c37088f
+    digest: c445a13d00d512a1c2435ed385bc7788771d37b09f82039f9e583dff88c082aa
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -6055,12 +6055,12 @@ entries:
       catalog.cattle.io/release-name: jenkins
     apiVersion: v2
     appVersion: 2.401.1
-    created: "2024-11-12T12:44:55.616034168-05:00"
+    created: "2024-11-12T12:45:45.03404717-05:00"
     deprecated: true
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 21ceed539ac8a4cff8f578534973a53386ef92b3b282e8b28a1a36333fa3a527
+    digest: e9d78646d6881cd8e4bf3e144a88c937cf66a5c41365221e756cf033faaaa470
     home: https://jenkins.io/
     icon: https://get.jenkins.io/art/jenkins-logo/logo.svg
     keywords:
@@ -6090,7 +6090,7 @@ entries:
   jiva:
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2024-11-12T12:44:55.954328174-05:00"
+    created: "2024-11-12T12:45:45.428966518-05:00"
     dependencies:
     - condition: openebsLocalpv.enabled
       name: localpv-provisioner
@@ -6099,7 +6099,7 @@ entries:
     description: Helm chart for OpenEBS Jiva Operator. Jiva provides highly available
       replication block volumes to Kubernetes stateful workloads using the local storage
       available on the Kubernetes nodes.
-    digest: 723ce58a6b2679f21e3d30fcb0040f3a48dd22df2298ce26c06496fb3a044bd8
+    digest: 0c40342ae75a168fc2072454aaef5986bad3d922f866f45d5e85df8173dd988b
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -6123,7 +6123,7 @@ entries:
     version: 3.6.0
   - apiVersion: v2
     appVersion: 3.5.0
-    created: "2024-11-12T12:44:55.950517497-05:00"
+    created: "2024-11-12T12:45:45.424599118-05:00"
     dependencies:
     - condition: openebsLocalpv.enabled
       name: localpv-provisioner
@@ -6132,7 +6132,7 @@ entries:
     description: Helm chart for OpenEBS Jiva Operator. Jiva provides highly available
       replication block volumes to Kubernetes stateful workloads using the local storage
       available on the Kubernetes nodes.
-    digest: 0ac56963a01ddcfc1b0dbff07d38c01e74697ed56d496a8471f2cb36e5501d9a
+    digest: 5234003f0cffa950eafcd5742ca07a3cad9038ab01e2cc79ee474663f2f56ce5
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -6156,7 +6156,7 @@ entries:
     version: 3.5.1
   - apiVersion: v2
     appVersion: 3.5.0
-    created: "2024-11-12T12:44:55.947103407-05:00"
+    created: "2024-11-12T12:45:45.420793857-05:00"
     dependencies:
     - condition: openebsLocalpv.enabled
       name: localpv-provisioner
@@ -6165,7 +6165,7 @@ entries:
     description: Helm chart for OpenEBS Jiva Operator. Jiva provides highly available
       replication block volumes to Kubernetes stateful workloads using the local storage
       available on the Kubernetes nodes.
-    digest: 0ac15aa108ca65cea08097ccfa5b9eec1de7189114c3bfa64b6be83a025b4e56
+    digest: d0ab61ca25f3b3071fa5a2600b25d42e6f83cd81beffe1a341346cc0e86d3a34
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -6193,7 +6193,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 20.0.3
-    created: "2024-11-12T12:44:55.961834961-05:00"
+    created: "2024-11-12T12:45:45.435735435-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -6207,7 +6207,7 @@ entries:
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
-    digest: 6d96fcd4d75f8c7235fa73a037f25bc3354a426c576266216bcf5904688b1029
+    digest: 8ff8f0a4fadd6eecf9a1af9fd6eebcadec469bd3aa3cfc350ff2fad3e64e6879
     home: https://www.keycloak.org
     icon: https://bitnami.com/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -6230,14 +6230,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.7"
-    created: "2024-11-12T12:44:56.178283912-05:00"
+    created: "2024-11-12T12:45:45.658676281-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 61b9f18968f1828c034a4b8f8cc9f6cb09de5f949e6713d3c7cbd81d6086c849
+    digest: 1aa316f7099aaed0536bc9c02b320bb88032c42aecbedc90b3b0823560549810
     home: https://konghq.com/
     icon: file://assets/icons/kong.png
     maintainers:
@@ -6255,14 +6255,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.170054416-05:00"
+    created: "2024-11-12T12:45:45.651120873-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 710619622d3b4833ebf4a4a1b692301b5bddd3e6382969967dc23961d4c94110
+    digest: c96cf48c23d8a2018555c5362767e9ed925d8d074229e9bbc0ba988683b11f32
     home: https://konghq.com/
     icon: file://assets/icons/kong.png
     maintainers:
@@ -6280,14 +6280,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.162562687-05:00"
+    created: "2024-11-12T12:45:45.643020346-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 236ba63e7c64bd23045e1ac86ce6c38405dd73167dff332a6941e28e0ae35fdb
+    digest: 79b5f2b02dbb97c1ff6705d1f0515a7ce913fde12661acd116ecb20072e54ad6
     home: https://konghq.com/
     icon: file://assets/icons/kong.png
     maintainers:
@@ -6305,14 +6305,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.153649622-05:00"
+    created: "2024-11-12T12:45:45.635103019-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: d17e2028cbff5a9589bea78f01670064b59d10a42424cdf410225b292b9e5903
+    digest: 71e778b45e57251a460ec797671d851c7acf35f5200516b66e545f3fe1ef1496
     home: https://konghq.com/
     icon: file://assets/icons/kong.png
     maintainers:
@@ -6330,14 +6330,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.1457883-05:00"
+    created: "2024-11-12T12:45:45.626769529-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: b34517ae73f64d2eccfeb880bf9784c27f7c41ad4f9a330df5a118949ef10d40
+    digest: 87cdeb7b3de3d86057ab455f9def0bb3cd241a942a9017b850315bc05ef73146
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6355,14 +6355,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.135630029-05:00"
+    created: "2024-11-12T12:45:45.61798366-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: db21779580329240f956dbb0692a4998f2908b8d075b993530e91e6d42e3f77b
+    digest: bb090afab781326734d26e5f7292470be0404440e5e8d6ed78993735eb850bd0
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6380,14 +6380,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.126982018-05:00"
+    created: "2024-11-12T12:45:45.607663328-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: aa2636b4f3b7c30b311184b8fb9c96a828f60b837928dce3498e62219da0e56b
+    digest: 4ee498d08619eaec5b8828fc7210ff34c93da89388ebf5e4ea09e1091796e424
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6405,14 +6405,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.116957372-05:00"
+    created: "2024-11-12T12:45:45.597566689-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 7c5770e8c1792fce62a4a5e4aca638669733cec4f0da2759b75fabd762d44da3
+    digest: 234bdfa2964322aa8198096b999077a769fc79cbfc5a598da06bfaba9804d365
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6430,14 +6430,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.6"
-    created: "2024-11-12T12:44:56.108036347-05:00"
+    created: "2024-11-12T12:45:45.587583832-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 454527148c79d42e8b7199a49e7812df2d2344ed88b781701139dae3c7f467cc
+    digest: 6272ad773c27c9a1b054ebbf0e9c3509439da578b7576e28943c029fe7b4fa56
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6455,14 +6455,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.5"
-    created: "2024-11-12T12:44:56.097560734-05:00"
+    created: "2024-11-12T12:45:45.577798008-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: df6ccd6d94c9dff6f66f6f50e95709bea95dc07dbcb3bbefe5feed1fe7a8e87d
+    digest: 14b2ba8d46f317a25d4f4998dfc0a8faa04c2ab5e478cc3575f08cb3c3ea07b0
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6480,14 +6480,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.5"
-    created: "2024-11-12T12:44:56.088574488-05:00"
+    created: "2024-11-12T12:45:45.568256983-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: ee5072ee4070d8a94a2e074dedf993c175744387ff3d83f7fe453ae00a9a5fe2
+    digest: 9d6fb01b21fbc6cf70f648d8b4d73f9d059637c31cf43e81e84a61d5e0362f0d
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6505,14 +6505,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.5"
-    created: "2024-11-12T12:44:56.079134935-05:00"
+    created: "2024-11-12T12:45:45.558328678-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 761780d22dc9ab6e346cc8869bfe49e9a9ddd77898dbe4bafc875ce8990950bb
+    digest: 712b7767e8c91d9708c355d3ecf46be697b3a0b198b966f498086c97545fbf30
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6530,14 +6530,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.4"
-    created: "2024-11-12T12:44:56.070001152-05:00"
+    created: "2024-11-12T12:45:45.549510885-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: ea02c3105b318be19e8da3cdbc4ebd2c3fb5b5b6e0bda7068175a25e7bb876c2
+    digest: df0e55b79546b69ff7f06aa287fa0384ff91c841bbd6f1cac915d166207d08e7
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6555,14 +6555,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.4"
-    created: "2024-11-12T12:44:56.061492723-05:00"
+    created: "2024-11-12T12:45:45.541314075-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: af71e310df5718d7c7e1a91237f1ccc4b634ad665a9d7154da0659afb8e560a1
+    digest: f80f3246e911e1fc2c1a7832fe8cfb69db1dc434f77c55aa53ce2871d40f9b39
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6580,14 +6580,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.4"
-    created: "2024-11-12T12:44:56.052620598-05:00"
+    created: "2024-11-12T12:45:45.532473517-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 55818956722b1f66a11103064b75cb6e96766847095053cc10ad6eff2bb8523e
+    digest: 128388bff21d3fbabc6ae6cf2733b68741ebd34caf4a0d408254884d5352195b
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6605,14 +6605,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.4"
-    created: "2024-11-12T12:44:56.044711443-05:00"
+    created: "2024-11-12T12:45:45.523837234-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 21e4aaa347e51863b42c1df79c793fee4f9f261fac2c2248879e100b993797c5
+    digest: b2ec0903519e202a8395c182f069bab4d3be804ae192d5176d5977d6eb863eef
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6632,14 +6632,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.4"
-    created: "2024-11-12T12:44:56.036493619-05:00"
+    created: "2024-11-12T12:45:45.515928147-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 8f98c9afd4156453d64d1b2c08a8e33db3b774a0a95e149c9e44081db387d4c2
+    digest: 1dcb000d08ccc2fa8dcf159de844ed0aadcf8411a3476db99ef022f56cd6fd17
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6659,14 +6659,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.4"
-    created: "2024-11-12T12:44:56.0283078-05:00"
+    created: "2024-11-12T12:45:45.507095657-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 85bafe9f89edc7bfb7b8fb0de9241a12d11620975cafc717f2ef16343b669975
+    digest: 7b45f0320cef2775c33e6f7a9fec76fe0c4c6c8434b9ab46840633e4a30d29ef
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6686,14 +6686,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:56.020167552-05:00"
+    created: "2024-11-12T12:45:45.497983636-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: afbaa133dce1555db0f180163b1f0ff44a5781d7e3d3a6d9998b1a704365b305
+    digest: 87e527816405ba52cd0a3b4529548d9f35e1d21dd02f2157877061838629f3af
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6713,14 +6713,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:56.011417602-05:00"
+    created: "2024-11-12T12:45:45.489548607-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 12d2343ddf86114231b4574e54db4aa04f828f65bdda9adead80e635fbf7cae5
+    digest: 36a7500ce938666bd129eecc123372d84da1d1ca5c990269b9c9c031e4b2f9c2
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6740,14 +6740,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:56.002787704-05:00"
+    created: "2024-11-12T12:45:45.480261002-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 1325593e8661fba668812132aa158d67847f3b618ab19bd3aedc606abb2e8726
+    digest: c0b91d1a25b2596fcc045430a1196b3a04dc990e91202c9bbf47c8fb99a515a4
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6767,14 +6767,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:55.99442005-05:00"
+    created: "2024-11-12T12:45:45.471204423-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: f8138b279261dbb294a0cfeab9c82a6db12f5346c6035567b78a672e3b486294
+    digest: 8891eba7319f956bbc1dafa2f75ad871b5ed7029be47649e4fea33b96c5729cb
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6794,14 +6794,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:55.986375741-05:00"
+    created: "2024-11-12T12:45:45.46265088-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 4310ed1103636c94733786ab20ee4f90bc489c933220107a3f36a88341e2ee33
+    digest: ab9b6f66156e494a6914025fdc6df7677456a9b09e8c9c17c95603a29bc2d4e6
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6821,14 +6821,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:55.978259375-05:00"
+    created: "2024-11-12T12:45:45.453480255-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 94a2ae25c749bf4b7f244abe6c8cb387467667f7d67bcdd412103c40c522e595
+    digest: cfcde33209cf74b772706a96c277a182b7d670180e7baa76ca9bebed4667ebf9
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6848,14 +6848,14 @@ entries:
       catalog.cattle.io/release-name: kong
     apiVersion: v2
     appVersion: "3.3"
-    created: "2024-11-12T12:44:55.969450545-05:00"
+    created: "2024-11-12T12:45:45.444448173-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: file://./charts/postgresql
       version: 11.9.13
     description: The Cloud-Native Ingress and API-management
-    digest: 1f23ff24c96eb08605be91d5a3793392be4147b46b53e3403c4ee0699fe1b212
+    digest: 1786a046aaea2190d992e9af8753d3e6ccd757d2fb73485974bb24eda6014a9d
     home: https://konghq.com/
     icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
     maintainers:
@@ -6872,9 +6872,9 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2024-11-12T12:44:56.179661382-05:00"
+    created: "2024-11-12T12:45:45.66042752-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
-    digest: c352b51c5cc7948eca17e3fffa2e17f425cf41fb3913f9e1071e0898def58171
+    digest: 3246f12171c377cf5b7bfbcdb5b8f61de24b4a9fa336b5ad2f5e78e738d00968
     home: https://github.com/kubernetes/kube-state-metrics/
     keywords:
     - metric
@@ -6897,9 +6897,9 @@ entries:
     version: 4.4.3
   - apiVersion: v1
     appVersion: 1.9.5
-    created: "2024-11-12T12:44:56.178903975-05:00"
+    created: "2024-11-12T12:45:45.659238862-05:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
-    digest: 5db632c2a4d1fa2b36d641d86a27d925268dbcb7c7967d52908440d257927f0e
+    digest: 1d3379cd0f7a8d1919daa7dd5a087a503b54f87b627ec97efefaeb148dc739d9
     home: https://github.com/kubernetes/kube-state-metrics/
     keywords:
     - metric
@@ -6922,7 +6922,7 @@ entries:
   localpv-provisioner:
   - apiVersion: v2
     appVersion: 3.5.0
-    created: "2024-11-12T12:44:56.184779534-05:00"
+    created: "2024-11-12T12:45:45.664607685-05:00"
     dependencies:
     - condition: openebsNDM.enabled
       name: openebs-ndm
@@ -6930,7 +6930,7 @@ entries:
       version: 2.1.0
     description: Helm chart for OpenEBS Dynamic Local PV. For instructions to install
       OpenEBS Dynamic Local PV using helm chart, refer to https://openebs.github.io/dynamic-localpv-provisioner/.
-    digest: 994f0a71a2de32814e3106896d105d8d7dad18c6074554b0e4b09bfd22b11cad
+    digest: b68f1fa5f50d787a45aed07787c84150efc3b9ca951b6a9ef5d76677031d7f52
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -6953,7 +6953,7 @@ entries:
     version: 3.5.0
   - apiVersion: v2
     appVersion: 3.4.0
-    created: "2024-11-12T12:44:56.182898831-05:00"
+    created: "2024-11-12T12:45:45.663233976-05:00"
     dependencies:
     - condition: openebsNDM.enabled
       name: openebs-ndm
@@ -6961,7 +6961,7 @@ entries:
       version: 2.1.0
     description: Helm chart for OpenEBS Dynamic Local PV. For instructions to install
       OpenEBS Dynamic Local PV using helm chart, refer to https://openebs.github.io/dynamic-localpv-provisioner/.
-    digest: 597fc5e7d9246ffaf271d6180158a2558180dc8f8d28f603796c493110ba11e4
+    digest: c9bcc7cc3bb184f9ea618eec6e6dbdd91efb2f7706e8087ed9e7a1443b3b057c
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -6984,7 +6984,7 @@ entries:
     version: 3.4.1
   - apiVersion: v2
     appVersion: 3.4.0
-    created: "2024-11-12T12:44:56.181167432-05:00"
+    created: "2024-11-12T12:45:45.661852362-05:00"
     dependencies:
     - condition: openebsNDM.enabled
       name: openebs-ndm
@@ -6992,7 +6992,7 @@ entries:
       version: 2.1.0
     description: Helm chart for OpenEBS Dynamic Local PV. For instructions to install
       OpenEBS Dynamic Local PV using helm chart, refer to https://openebs.github.io/dynamic-localpv-provisioner/.
-    digest: c483d1b26a23351883009e8a9736d9cf5fa4d03aca7c156e7e37cd6c1189e681
+    digest: 4b967a1a7c3a5bf3b0dc4677f1ae68a63f35f309a6928925a839bb134e4115a6
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7016,9 +7016,9 @@ entries:
   logstash:
   - apiVersion: v1
     appVersion: 7.17.1
-    created: "2024-11-12T12:44:56.185717035-05:00"
+    created: "2024-11-12T12:45:45.665547095-05:00"
     description: Official Elastic helm chart for Logstash
-    digest: 2c1f60e0e6f3a20178b27e6bf19eb88eb7dae572a95ebc9cdbbf6db48c98d6f1
+    digest: c8b11a4d9d555f3f9286b1b3697d076e2c2c5b3367a7d89cd686b86c5f487809
     home: https://github.com/elastic/helm-charts
     icon: https://helm.elastic.co/icons/logstash.png
     maintainers:
@@ -7033,9 +7033,9 @@ entries:
   loki:
   - apiVersion: v1
     appVersion: v2.5.0
-    created: "2024-11-12T12:44:56.1865042-05:00"
+    created: "2024-11-12T12:45:45.66633383-05:00"
     description: 'Loki: like Prometheus, but for logs.'
-    digest: 015ce72e8de4c5488791affc5ab3a7a590beb2faa540ef3fa5b136dea893d19a
+    digest: 23098d41d85844e52aa6a3152edb2f90fea847a8baf60dffb5c08ea22b7aebd7
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     kubeVersion: ^1.10.0-0
@@ -7051,7 +7051,7 @@ entries:
   loki-stack:
   - apiVersion: v1
     appVersion: v2.4.2
-    created: "2024-11-12T12:44:56.197339304-05:00"
+    created: "2024-11-12T12:45:45.676975096-05:00"
     dependencies:
     - condition: loki.enabled
       name: loki
@@ -7082,7 +7082,7 @@ entries:
       repository: https://helm.elastic.co
       version: ~7.17.1
     description: 'Loki: like Prometheus, but for logs.'
-    digest: e32db4eecbdd4e5b8c7edda75019142743610dce496e32f70036f3f8381eb070
+    digest: 68b7fc80ca8536e6f900c36395c48c34f8cd88616864ab673aff20dfb431cdcd
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     kubeVersion: ^1.10.0-0
@@ -7098,9 +7098,9 @@ entries:
   lvm-localpv:
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2024-11-12T12:44:56.200043753-05:00"
+    created: "2024-11-12T12:45:45.67983156-05:00"
     description: CSI Driver for dynamic provisioning of LVM Persistent Local Volumes.
-    digest: 302c9319bd4796eaffab68bbc3026ec668608c57ddb7ae1886ff934d11a348d3
+    digest: a0ca2b5f883fe1bdd50b29415527936c078bf2c2815b8e21c769bc3bd12c1f34
     home: https://openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7125,9 +7125,9 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2024-11-12T12:44:56.199167688-05:00"
+    created: "2024-11-12T12:45:45.678889173-05:00"
     description: CSI Driver for dynamic provisioning of LVM Persistent Local Volumes.
-    digest: 071703af08c1e9439d23b75f6e752768e9c23e40668f57d7ef296071dd5947f7
+    digest: 02bfbb3afc92dcd0856c2b00a2a6f58042ab0987532ce4908c3abfd8935dc0ec
     home: https://openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7152,9 +7152,9 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2024-11-12T12:44:56.198269866-05:00"
+    created: "2024-11-12T12:45:45.677936565-05:00"
     description: CSI Driver for dynamic provisioning of LVM Persistent Local Volumes.
-    digest: ce6a200317f063fbfaf6e51babfc7b59166d608d6db8b256a3e9639883f4122e
+    digest: aa36f95fe95346ae51bec263b0c845a1613e63c0b7e3b3f4cbc537c51e14e7a7
     home: https://openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7180,7 +7180,7 @@ entries:
   mayastor:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2024-11-12T12:44:56.255578374-05:00"
+    created: "2024-11-12T12:45:45.727665398-05:00"
     dependencies:
     - name: etcd
       repository: https://charts.bitnami.com/bitnami
@@ -7202,7 +7202,7 @@ entries:
       repository: https://openebs.github.io/dynamic-localpv-provisioner
       version: 3.5.0
     description: Mayastor Helm chart for Kubernetes
-    digest: 301c7f7762ef8eb7e5b4054bfd5222413fc1e9f2a5ed3001e14f02c522bbffee
+    digest: 360a32a8b407bb044446d88b6e5efddf9c3cb2448d14934b370a5d87bac53f29
     name: mayastor
     type: application
     urls:
@@ -7210,7 +7210,7 @@ entries:
     version: 2.5.0
   - apiVersion: v2
     appVersion: 2.4.0
-    created: "2024-11-12T12:44:56.238370658-05:00"
+    created: "2024-11-12T12:45:45.711619374-05:00"
     dependencies:
     - name: etcd
       repository: https://charts.bitnami.com/bitnami
@@ -7232,7 +7232,7 @@ entries:
       repository: https://openebs.github.io/dynamic-localpv-provisioner
       version: 3.4.1
     description: Mayastor Helm chart for Kubernetes
-    digest: 2888654454814479f3a8912358164fd9f3e278ba20baef33cd95fb6c9b13351e
+    digest: d21f0fd7cf9d698a264389f5f3bc2538333db81327c1a2925bbea57eb1730970
     name: mayastor
     type: application
     urls:
@@ -7240,7 +7240,7 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2024-11-12T12:44:56.214953808-05:00"
+    created: "2024-11-12T12:45:45.695093987-05:00"
     dependencies:
     - name: etcd
       repository: https://charts.bitnami.com/bitnami
@@ -7258,7 +7258,7 @@ entries:
       repository: https://nats-io.github.io/k8s/helm/charts/
       version: 0.19.14
     description: Mayastor Helm chart for Kubernetes
-    digest: 5cf74bb99f849f563ae8dd57d0cf73fcef86c305b70506849228d775cbc98865
+    digest: 439a08276ac89f06f0ed62b703b31998ab30ac327eae1f5e07bc922c370e2f3f
     name: mayastor
     type: application
     urls:
@@ -7269,7 +7269,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.6.17
-    created: "2024-11-12T12:44:56.25893184-05:00"
+    created: "2024-11-12T12:45:45.729648424-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -7279,7 +7279,7 @@ entries:
     description: Memcached is an high-performance, distributed memory object caching
       system, generic in nature, but intended for use in speeding up dynamic web applications
       by alleviating database load.
-    digest: a4c282edf1c2ae83f6344b6e9f24ad9f1b9449e1c199e20b910712d5b3257828
+    digest: 990d03c2f4a94740f55b5925094f2572b3df9d6ac7138acf5619fa3d690e1ab9
     home: https://github.com/bitnami/charts/tree/main/bitnami/memcached
     icon: https://bitnami.com/assets/stacks/memcached/img/memcached-stack-220x234.png
     keywords:
@@ -7303,7 +7303,7 @@ entries:
       catalog.cattle.io/release-name: metallb
     apiVersion: v2
     appVersion: v0.14.5
-    created: "2024-11-12T12:44:56.261207852-05:00"
+    created: "2024-11-12T12:45:45.731777066-05:00"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -7315,7 +7315,7 @@ entries:
       version: 0.0.11
     description: A network load-balancer implementation for Kubernetes using standard
       routing protocols
-    digest: 9a57d9030916186623fdcf8bb5ffccf35bbf3f0e62cdebb461de6b5f66e111fa
+    digest: 6fb36e5f4dc10f2bbff1f7487cd11463231463b269c296f0561239c157f71415
     home: https://metallb.universe.tf
     icon: https://metallb.universe.tf/images/logo/metallb-blue.png
     kubeVersion: '>= 1.19.0-0'
@@ -7329,10 +7329,10 @@ entries:
   nats:
   - apiVersion: v2
     appVersion: 2.9.17
-    created: "2024-11-12T12:44:56.262910596-05:00"
+    created: "2024-11-12T12:45:45.733812318-05:00"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
       Communications Technology.
-    digest: 3d41e180a10e404e19da9d6cc4cc2b8e4b025e90d270f4b24bc3a7fe3647ef06
+    digest: 15fc7f4f635d74efdbe2e86a210026ee330001fcd6b2f07dcb64d154d643598b
     home: http://github.com/nats-io/k8s
     icon: https://nats.io/img/nats-icon-color.png
     keywords:
@@ -7350,10 +7350,10 @@ entries:
   nfs-provisioner:
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2024-11-12T12:44:56.264030931-05:00"
+    created: "2024-11-12T12:45:45.734951865-05:00"
     description: Helm chart for OpenEBS Dynamic NFS PV. For instructions to install
       OpenEBS Dynamic NFS PV using helm chart, refer to https://openebs.github.io/dynamic-nfs-provisioner.
-    digest: c565d65c3c916ba26e2d0dc95dd31b95be2cdaad65693b658aa0a92bd79a9aff
+    digest: 31fc4d614d19da9b36c71081de2813dce9529aceeb958eb56ebca22912d3d766
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7379,10 +7379,10 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2024-11-12T12:44:56.263489836-05:00"
+    created: "2024-11-12T12:45:45.734404889-05:00"
     description: Helm chart for OpenEBS Dynamic NFS PV. For instructions to install
       OpenEBS Dynamic NFS PV using helm chart, refer to https://openebs.github.io/dynamic-nfs-provisioner.
-    digest: ad9689b3a405cb0ec57d5b0e412e604720c094af07c778f3fbfdfd5852f6cd52
+    digest: e68e9f42aaf4f901a47acb43a0dc2dd33cf9ecfee87b5416f9f55f0e0e783a38
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7413,9 +7413,9 @@ entries:
       catalog.cattle.io/release-name: nco
     apiVersion: v2
     appVersion: v0.1.0
-    created: "2024-11-12T12:44:56.264414183-05:00"
+    created: "2024-11-12T12:45:45.735385797-05:00"
     description: Operator to configure Kubernetes' nodes
-    digest: 8b3f105364349e203e7906de2ff499ce90c2b1895b7ecd4349702bbfc9a82374
+    digest: aecf24887652a0024a717aea3092935e84a8299e647c2d5bf68f781e92153f43
     name: node-config-operator
     type: application
     urls:
@@ -7428,9 +7428,9 @@ entries:
       catalog.cattle.io/release-name: ntpd-rs
     apiVersion: v2
     appVersion: v1.1.2
-    created: "2024-11-12T12:44:56.264680881-05:00"
+    created: "2024-11-12T12:45:45.735668195-05:00"
     description: Helm chart for ntpd-rs
-    digest: 8bc207171ffebc4e673e9099b38e07f6291c39a601a8663d53e76e1cffa672c8
+    digest: 0667f65c7113f0723689e96804537233c7032fe577a9e1ed032664160facb9bf
     home: https://github.com/pendulum-project/ntpd-rs
     icon: https://avatars.githubusercontent.com/u/124210749?s=48&v=4
     maintainers:
@@ -7450,7 +7450,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v2
     appVersion: 3.10.0
-    created: "2024-11-12T12:44:56.2968968-05:00"
+    created: "2024-11-12T12:45:45.766217547-05:00"
     dependencies:
     - condition: openebs-ndm.enabled
       name: openebs-ndm
@@ -7485,7 +7485,7 @@ entries:
       repository: file://./charts/mayastor
       version: 2.5.0
     description: Containerized Attached Storage for Kubernetes
-    digest: 0ee7b4c59787842176ff7b217f9b66f5111da1be807f29537d7a044184c69fe8
+    digest: c09738cc92cad363a04f5cdaba22570b7681e66718e13a4bdaae1886096bb7c4
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/HEAD/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7515,7 +7515,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v2
     appVersion: 3.9.0
-    created: "2024-11-12T12:44:56.354980177-05:00"
+    created: "2024-11-12T12:45:45.823361564-05:00"
     dependencies:
     - condition: openebs-ndm.enabled
       name: openebs-ndm
@@ -7550,7 +7550,7 @@ entries:
       repository: file://./charts/mayastor
       version: 2.4.0
     description: Containerized Attached Storage for Kubernetes
-    digest: b88085edbcebf3586e61abb5a43cbd555a838eb53badcc80182e52c5405b165d
+    digest: cd29c63f80de3d9576a7f46c4e7234526b528114fb154c700e29bc265f5e5d4f
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/HEAD/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7580,7 +7580,7 @@ entries:
       catalog.cattle.io/release-name: openebs
     apiVersion: v2
     appVersion: 3.8.0
-    created: "2024-11-12T12:44:56.325941262-05:00"
+    created: "2024-11-12T12:45:45.794490978-05:00"
     dependencies:
     - condition: openebs-ndm.enabled
       name: openebs-ndm
@@ -7615,7 +7615,7 @@ entries:
       repository: file://./charts/mayastor
       version: 2.3.0
     description: Containerized Attached Storage for Kubernetes
-    digest: d7f22f51f27ba816ec4c63a99128f8c5188561e9ef1f5236d3f9d98c758f5ce7
+    digest: fe2b511facfc261ee43e34ae0175b49360c1342451b4bfd94d1b7c5185b9095b
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/HEAD/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7642,10 +7642,10 @@ entries:
   openebs-ndm:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2024-11-12T12:44:56.355933038-05:00"
+    created: "2024-11-12T12:45:45.824217609-05:00"
     description: Helm chart for OpenEBS Node Disk Manager - a Kubernetes native storage
       device management solution. For instructions on how to install, refer to https://openebs.github.io/node-disk-manager/.
-    digest: 8504321e85e4ccccedf842f4b6610439ef1a83f1c317836abc055b789daa480a
+    digest: ea62b399177a5f2ba279a51f2c3aaa26c9a54c541293ddfb3c50daff6f0e0c9d
     home: http://www.openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -7670,9 +7670,9 @@ entries:
   openstack-cinder-csi:
   - apiVersion: v1
     appVersion: v1.23.0
-    created: "2024-11-12T12:44:56.356540416-05:00"
+    created: "2024-11-12T12:45:45.824830603-05:00"
     description: Cinder CSI Chart for OpenStack
-    digest: 77670aa293b73417a2182bae50a56c19be024df7628d3f37d4c4359b6b4ad149
+    digest: f03e27e7a9296405fc5586decb6af99970e67b3a4ee41656c2c2d064bb71b317
     home: https://github.com/kubernetes/cloud-provider-openstack
     icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
     maintainers:
@@ -7688,7 +7688,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 15.1.0
-    created: "2024-11-12T12:44:56.364569219-05:00"
+    created: "2024-11-12T12:45:45.83174466-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -7698,7 +7698,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: f6de3c5d358525fff74fe78a7c6603231e96bf10e309d234ddd146b1050ad125
+    digest: 81ecc6a3f19e59f809c3cf7426f1e834bf6d75f917e6c83bd8c08672692e0c96
     home: https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -7722,7 +7722,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 14.5.0
-    created: "2024-11-12T12:44:56.360684085-05:00"
+    created: "2024-11-12T12:45:45.828064107-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -7732,7 +7732,7 @@ entries:
     description: PostgreSQL (Postgres) is an open source object-relational database
       known for reliability and data integrity. ACID-compliant, it supports foreign
       keys, joins, views, triggers and stored procedures.
-    digest: 54997a0fd0aa0ba733c5210c921a2143081ff80d1244a5233180920df0ab3305
+    digest: 5cbcb7a145d1721bcd441c83dfeb5eef645d3e73d50846087c8903e970d25866
     home: https://github.com/bitnami/charts/tree/main/bitnami/postgresql
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -7755,14 +7755,14 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.34.0
-    created: "2024-11-12T12:44:56.372790437-05:00"
+    created: "2024-11-12T12:45:45.839166923-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
       repository: https://prometheus-community.github.io/helm-charts
       version: 4.4.*
     description: Prometheus is a monitoring system and time series database.
-    digest: e6c3f5a3e06c4d51ef611c594cf9f4b0640fd075b32a8a884b1146f2fba4bece
+    digest: 0b2a7c479bcbc55ce0aee7b037655ac4c1e1b74f15a0e8df3631644691fc22c1
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     maintainers:
@@ -7789,14 +7789,14 @@ entries:
     version: 15.5.4
   - apiVersion: v1
     appVersion: 2.17.2
-    created: "2024-11-12T12:44:56.367832589-05:00"
+    created: "2024-11-12T12:45:45.835630933-05:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 2.7.*
     description: Prometheus is a monitoring system and time series database.
-    digest: 28fbcd7839bf6cca78f7ec8c929e9b5efce15d74fec3bfd4c4c7ee57505000af
+    digest: 6296a8ae9d139d29aac66e64762aa9d226f009cd920247dc2d7a72e50872de7e
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     maintainers:
@@ -7817,10 +7817,10 @@ entries:
   promtail:
   - apiVersion: v2
     appVersion: 2.4.2
-    created: "2024-11-12T12:44:56.373917129-05:00"
+    created: "2024-11-12T12:45:45.840130973-05:00"
     description: Promtail is an agent which ships the contents of local logs to a
       Loki instance
-    digest: 06fd549b6d9274b5ad6d9c743870b54426a74a30ff5012966f043f5a042150a0
+    digest: 7cdcfbafc1179bd78cabc8ec836e4677304f114949ce9c210b3f3ddd8e8339c6
     home: https://grafana.com/loki
     icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
     maintainers:
@@ -7844,10 +7844,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.15.1
-    created: "2024-11-12T12:44:56.390934645-05:00"
+    created: "2024-11-12T12:45:45.856632298-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 736c1a16721ddc4ec2e325566c5667f2cc910b95987955d7e1ad59ff1d3085b9
+    digest: d7676c8456cc01b7b1cff214fb56531349d8163bde019da1d92ce9eeea121927
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: file://assets/icons/pxc-db.png
     kubeVersion: '>=1.21-0'
@@ -7869,10 +7869,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.15.0
-    created: "2024-11-12T12:44:56.389749972-05:00"
+    created: "2024-11-12T12:45:45.855495459-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 2fef6e0b4e0eb238f9659c20eda9704f4f4a6802872474004dfd637b9f4d3562
+    digest: 99d649431e01141dfbcd24b9ca9b9a038752876b8b2df4f430d447da075ca02a
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: file://assets/icons/pxc-db.png
     kubeVersion: '>=1.21-0'
@@ -7894,10 +7894,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.387988702-05:00"
+    created: "2024-11-12T12:45:45.854400481-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: a84415380c32276a5b570612ec1f9e069ca66ba29654dd6e87750d13266cd7fc
+    digest: 459cd62603104815387fffdc96adc4971087ee1034df43995c7265795134f2ca
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: file://assets/icons/pxc-db.png
     kubeVersion: '>=1.21-0'
@@ -7919,10 +7919,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.386894617-05:00"
+    created: "2024-11-12T12:45:45.853293688-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 4fcbbd5e77b036dffd37044ad73573654ead351fff08f8375c9a6be551fb42b4
+    digest: c3ce1984d5be5e296870cf3927fbe67047ac1b097bb55c8e3f820c4d10fb92e7
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -7943,10 +7943,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.385728481-05:00"
+    created: "2024-11-12T12:45:45.851117939-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 62b46467fd93ddbcd941ea30ed610bbeae590715d20d125258c8b905002c1482
+    digest: d1a63071a98e3397bafb1e85879fec9f243bb573b2b74a9f78352badd253d58e
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -7967,10 +7967,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.384629917-05:00"
+    created: "2024-11-12T12:45:45.850081587-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 0ddf429ab191103f6c581ee9b34bf26b8ed1907f384fc9a2e15c96666ab79005
+    digest: 26f7b4416ecbfa4225c705b80aaddb6b21540971dc29afaca6651b619755f38d
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -7991,10 +7991,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.383531487-05:00"
+    created: "2024-11-12T12:45:45.84903742-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 5a7e8fe643932de62f01cc36f52406bb140ccd72f906dfff4ebdd8923e6b58ec
+    digest: 85f976c3e2c6f2c5281f32ccf71b99714c08224bfb85b23f887378cc95b0aec6
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8015,10 +8015,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.382383153-05:00"
+    created: "2024-11-12T12:45:45.847999668-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 83d4603f35b5a62a35cb8a14d45b060234ba4ea51fbdb80d397962139303b866
+    digest: 20270187464f1e2546d5360a02ba5c22583b96898cb82879fca0bc156e15c4e7
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8039,10 +8039,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.381074153-05:00"
+    created: "2024-11-12T12:45:45.846979776-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 6c36d48392f308cf27e74c0f869fddb549a33ac3dbb992dbb6a1d459e43d877f
+    digest: 24c199cb800428cf2f776c675e4431f3e73125855272940848c05d6d9e1bbab4
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8063,10 +8063,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.379206304-05:00"
+    created: "2024-11-12T12:45:45.845964078-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 018655341618b389a24a1b4110b03917fc06d4795b39fc6b881663b5039e6e0a
+    digest: cfa0dd82c289fd55f3f0f26aca77b65e29dbfa7d9da88deacd1ca9d33d4b27df
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8087,10 +8087,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.378165695-05:00"
+    created: "2024-11-12T12:45:45.844935701-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 47cdfd44b6fe353fea76a12d29ce21cbdc7ebb2bffe75bb8b34600c9810fe05e
+    digest: 9f966d7ca9d8722d5c8845456923bd4d9a7ccad2f2f30d5aa2175dca553fe1fc
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8111,10 +8111,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.377133474-05:00"
+    created: "2024-11-12T12:45:45.843363036-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: ddf3e23e52eb709c8dd8cd7b7cc80548d5c3f25466ed9b2091614b85c929ea3a
+    digest: c8f246771e73c5de818aa5d8194a649b9b55b0b55d2ec6e42572c5136845687e
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8135,10 +8135,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.376106627-05:00"
+    created: "2024-11-12T12:45:45.842355851-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 707d0332646529fdb72fae2c5c22080cb5a5e1e4d3f51b0675a1e9b9e70c0705
+    digest: 774b618d2a8a8eaf5f59a2d3e1b363f7c2e6fc9454a6cd5c786072aa31f56b20
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8159,10 +8159,10 @@ entries:
       catalog.cattle.io/release-name: pxc-db
     apiVersion: v2
     appVersion: 1.12.0
-    created: "2024-11-12T12:44:56.375031503-05:00"
+    created: "2024-11-12T12:45:45.841202625-05:00"
     description: A Helm chart for installing Percona XtraDB Cluster Databases using
       the PXC Operator.
-    digest: 60bf477887dcaaa6c885996370b8d1498bef44639b9d91f95ea2edcecf559e0e
+    digest: 68f01079d363515eec184a50035f3c2bbf55584240c4974eca916fe808a15a18
     home: https://www.percona.com/doc/kubernetes-operator-for-pxc/kubernetes.html
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8185,10 +8185,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.15.1
-    created: "2024-11-12T12:44:56.404683066-05:00"
+    created: "2024-11-12T12:45:45.868568835-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: 3c5a7c027847d82dbb9690d2aed145458bf88acb94021e2e5a4af08a0a0bfcbe
+    digest: fd5338fbf05df1c10b06545ebca8d0ef03ed39b54b562c2dad47893fc7f1deef
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: file://assets/icons/pxc-operator.png
     kubeVersion: '>=1.21-0'
@@ -8211,10 +8211,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.15.0
-    created: "2024-11-12T12:44:56.403308721-05:00"
+    created: "2024-11-12T12:45:45.867055813-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: 08e5be2235b80a9fbdadbb060ee7265b277978042db790760b09a4ad041a1c6b
+    digest: f74c082333ce49df069b56e23cb5fa863a217b079101b34c920ce3dd1c282e3f
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: file://assets/icons/pxc-operator.png
     kubeVersion: '>=1.21-0'
@@ -8237,10 +8237,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.402284091-05:00"
+    created: "2024-11-12T12:45:45.866110197-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: c446ca1c05ded1d14e6f89356f3ad6a12fff8389aca713e48e5a44227034c999
+    digest: ef034cc4ffbd817b5435582051cda2e0a0918f41e8528a1a0d509b134f3965e6
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8262,10 +8262,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.401257256-05:00"
+    created: "2024-11-12T12:45:45.865179218-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: bcdce3ac38e01f1cebb292de1d631b9a9f3a11b1deb8c81e5c4d05219d227378
+    digest: 97c0a9cddcfb43dcae6f2a55e057342e743f4b7c51dd0bd92ecd21023d5abd63
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8287,10 +8287,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2024-11-12T12:44:56.399637524-05:00"
+    created: "2024-11-12T12:45:45.864213846-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: 6c3d402ff9f91cb7ab081d685b0384ae38b2f3e0edc62d7577731a10d32026bc
+    digest: 5e0a5bc22ddb96ce1baf5452dd81b2a705f1abc9a2234e4b7e5aeae4ba2241b0
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8312,10 +8312,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.398345446-05:00"
+    created: "2024-11-12T12:45:45.862410123-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: 7c0ba2c4eace8b0635aa0014136043cc8cf33e5cbed1be1386bf57b58e738b22
+    digest: ec0f9c4d710ce701957ba0d2a916b45969e6d13ddcd497b1d83eac138525b391
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8337,10 +8337,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.396953468-05:00"
+    created: "2024-11-12T12:45:45.861297612-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: a042df8afbf13da832ee95defc536470aeb1cbc099e24d231d568509278f2756
+    digest: 654fbb2f4ef52dd34e3f13a0b5c75b8b26af95d0250e2f47cf774a832d87d4a9
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8362,10 +8362,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.395730039-05:00"
+    created: "2024-11-12T12:45:45.860172879-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: f1a0f02133a994359587a95e859704c508309b1e604f183da0fdd559062bfa10
+    digest: f12aef0b56cee0ab901340b958fd264727d2ea4cb8dbdf845cf0a5b62542c18d
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8387,10 +8387,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.13.0
-    created: "2024-11-12T12:44:56.393235346-05:00"
+    created: "2024-11-12T12:45:45.859290405-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: f5adc2a2086b160ba639e2279838eb8c8fa40c23f450a6884a5feb90080cb24d
+    digest: 71e85cd6911645e3c0951a2eafcaa454d5cb0837b91f985279e87c4a82fe9f4e
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8412,10 +8412,10 @@ entries:
       catalog.cattle.io/release-name: pxc-operator
     apiVersion: v2
     appVersion: 1.12.0
-    created: "2024-11-12T12:44:56.39207705-05:00"
+    created: "2024-11-12T12:45:45.857750115-05:00"
     description: A Helm chart for deploying the Percona Operator for MySQL (based
       on Percona XtraDB Cluster)
-    digest: 4faabd8896a4784fa573d5ca157a0837c2d588bde4215fb984ffef3f86d75deb
+    digest: 624568f800d9497dd3719d16b23d66c37675736223a0036160e7d1cd8da48a9f
     home: https://docs.percona.com/percona-operator-for-mysql/pxc/
     icon: https://raw.githubusercontent.com/percona/percona-xtradb-cluster-operator/main/operator.png
     maintainers:
@@ -8432,10 +8432,10 @@ entries:
   redis-ha:
   - apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-11-12T12:44:56.40676186-05:00"
+    created: "2024-11-12T12:45:45.870302216-05:00"
     description: This Helm chart provides a highly available Redis implementation
       with a master/slave configuration and uses Sentinel sidecars for failover management
-    digest: 527e2fadfe622a29fc67e863b49a5c3ecd7c3aa9c712cdb90d4ad3b57d91225d
+    digest: 344cccb0003a2056ec43bcc733a0a18065a4e1321cefcaff47baffb8f28aef1c
     home: http://redis.io/
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
@@ -8458,9 +8458,9 @@ entries:
   staticroute-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-12T12:44:56.407266279-05:00"
+    created: "2024-11-12T12:45:45.870509963-05:00"
     description: StaticRoute Operator
-    digest: a773404cdd002c21b2e1742a359b529367f9171340dc0dde551c75ba3c3afa91
+    digest: 4b0dbdb4a5efa493fe535b81e329ea83f6ab573b95c1042b11df5f1049303dc8
     name: staticroute-operator
     sources:
     - https://github.com/IBM/staticroute-operator
@@ -8471,11 +8471,11 @@ entries:
   thanos:
   - apiVersion: v1
     appVersion: 0.29.0
-    created: "2024-11-12T12:44:56.408766418-05:00"
+    created: "2024-11-12T12:45:45.8718893-05:00"
     description: Thanos is a set of components that can be composed into a highly
       available metric system with unlimited storage capacity, which can be added
       seamlessly on top of existing Prometheus deployments.
-    digest: a17005040ef07a8d78cfcb243fe730667b2636f90c149f4ff2de6262880fd781
+    digest: 07561100c4b06d80a95e2d276d1abdf960b6ed04cb9e24b7347ddbce078a55d5
     icon: https://raw.githubusercontent.com/thanos-io/thanos/master/website/static/Thanos-logo_full.svg
     keywords:
     - thanos
@@ -8494,9 +8494,9 @@ entries:
   whitesdn-controller:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-12T12:44:56.409173986-05:00"
+    created: "2024-11-12T12:45:45.872285438-05:00"
     description: A Helm chart for Kubernetes
-    digest: 9f3e3a95917c305aefdc301615a7449edff7d3cb6ee78c6d3165a867c95879b2
+    digest: adc31761cd1f6fb4c6617b7426b5ba2c2b344c5b0178591ef14895ebd6456fd5
     name: whitesdn-controller
     type: application
     urls:
@@ -8505,10 +8505,10 @@ entries:
   zfs-localpv:
   - apiVersion: v2
     appVersion: 2.4.0
-    created: "2024-11-12T12:44:56.411989225-05:00"
+    created: "2024-11-12T12:45:45.875109386-05:00"
     description: Helm chart for CSI Driver for dynamic provisioning of ZFS Persistent
       Local Volumes. For instructions on how to use this helm chart, see - https://openebs.github.io/zfs-localpv/
-    digest: 27d2ca3a96d1953bb96467aeaac1f14841071018fd4b89b4fdd624b9be55f7e6
+    digest: 07b0763d040c000d22e31349362e96ced2a8187edf640000903b18ad20a25d29
     home: https://openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -8533,10 +8533,10 @@ entries:
     version: 2.4.0
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2024-11-12T12:44:56.411030446-05:00"
+    created: "2024-11-12T12:45:45.874090552-05:00"
     description: Helm chart for CSI Driver for dynamic provisioning of ZFS Persistent
       Local Volumes. For instructions on how to use this helm chart, see - https://openebs.github.io/zfs-localpv/
-    digest: 0152786fec0e4360f46b218fc44dec726aa98307f9f0664a85a88378e9a7b738
+    digest: a101fbf86b54323f48a4c58eed095e0cd16f4f8b6af0c325254e00dc2ca88c62
     home: https://openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -8561,10 +8561,10 @@ entries:
     version: 2.3.1
   - apiVersion: v2
     appVersion: 2.3.0
-    created: "2024-11-12T12:44:56.410105267-05:00"
+    created: "2024-11-12T12:45:45.873168691-05:00"
     description: Helm chart for CSI Driver for dynamic provisioning of ZFS Persistent
       Local Volumes. For instructions on how to use this helm chart, see - https://openebs.github.io/zfs-localpv/
-    digest: 3505d822dc85e522e9b7bf4fe631634fa92cfb70ba263db2b19d2c17fd77d0a9
+    digest: bea9cb2b93f53bfdc2119218dbf25b61ab67fbaeedb08a83a3a5cf6bcbf5a43a
     home: https://openebs.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/openebs/icon/color/openebs-icon-color.png
     keywords:
@@ -8587,4 +8587,4 @@ entries:
     urls:
     - https://hector295.github.io/marketplace-ws/helm-repo/zfs-localpv-2.3.0.tgz
     version: 2.3.0
-generated: "2024-11-12T12:44:55.127596413-05:00"
+generated: "2024-11-12T12:45:44.590714186-05:00"
